@@ -1,0 +1,369 @@
+:root {
+  --primary-deep-red: rgb(217, 4, 41);
+  --primary-dark-grey: rgb(43, 45, 66);
+}
+
+.home,
+.home * {
+  box-sizing: border-box;
+}
+.home {
+  background: #ffffff;
+  width: 1440px;
+  height: 1024px;
+  position: relative;
+  overflow: hidden;
+}
+
+.welcome {
+  width: 750px;
+  height: 368px;
+  position: absolute;
+  right: 70px;
+  top: 280px;
+}
+
+.big-welcome {
+  color: #ef233c;
+  text-align: center;
+  font: var(--super-topic, 500 61.04px/72px "Space Grotesk", sans-serif);
+  position: absolute;
+  left: 77.5px;
+  top: 0px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.p-1 {
+  color: var(--primary-dark-grey);
+  text-align: center;
+  font: var(--primary-content, 300 20px/24px "Space Grotesk", sans-serif);
+  position: absolute;
+  left: 100px;
+  top: 67px;
+  width: 550px;
+  height: 128px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.p-2 {
+  color: var(--primary-dark-grey);
+  text-align: center;
+  font: var(--primary-content, 300 20px/24px "Space Grotesk", sans-serif);
+  position: absolute;
+  left: 100px;
+  top: 219px;
+  width: 550px;
+  height: 72px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.let-s-go {
+  width: 129px;
+  height: 30px;
+  position: absolute;
+  left: 310.5px;
+  top: 315px;
+  overflow: hidden;
+}
+
+.work-default {
+  color: var(--primary-dark-grey);
+  text-align: center;
+  font: var(--buttons, 500 25px "Space Grotesk", sans-serif);
+  position: absolute;
+  left: 15.27px;
+  top: 0px;
+}
+
+.top-bar {
+  padding: 0px 100px 0px 100px;
+  height: 176px;
+  position: absolute;
+  right: 0px;
+  left: 0px;
+  top: 0px;
+  overflow: hidden;
+}
+
+.home-logo {
+  width: 56px;
+  height: 81px;
+  position: absolute;
+  left: 141px;
+  top: 71px;
+  overflow: hidden;
+}
+
+.group {
+  position: absolute;
+  inset: 0;
+}
+
+.vector {
+  position: absolute;
+  left: 0.29px;
+  top: 0.87px;
+  overflow: visible;
+}
+
+.vector2 {
+  position: absolute;
+  left: 0.93px;
+  top: 26.59px;
+  overflow: visible;
+}
+
+.vector3 {
+  position: absolute;
+  left: 0px;
+  top: 68.31px;
+  overflow: visible;
+}
+
+.xmlid-1 {
+  width: 40.41px;
+  height: 80.42px;
+  position: static;
+}
+
+.group2 {
+  position: absolute;
+  left: 15.01px;
+  top: 0.17px;
+  overflow: visible;
+}
+
+.group3 {
+  position: absolute;
+  left: 15.01px;
+  top: 0.17px;
+  overflow: visible;
+}
+
+.top-space {
+  width: 680px;
+  height: 8px;
+  position: absolute;
+  left: 233px;
+  top: 144px;
+}
+
+.home2 {
+  width: 90px;
+  height: 24px;
+  position: absolute;
+  right: 401px;
+  top: 128px;
+}
+
+.home-chosen {
+  color: var(--primary-deep-red);
+  text-align: center;
+  font: var(--buttons, 500 25px "Space Grotesk", sans-serif);
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 90px;
+  height: 24px;
+}
+
+.work {
+  width: 90px;
+  height: 24px;
+  position: absolute;
+  right: 275px;
+  top: 128px;
+}
+
+.work-default2 {
+  color: #2b2d42;
+  text-align: center;
+  font: var(--buttons, 500 25px "Space Grotesk", sans-serif);
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 90px;
+  height: 24px;
+}
+
+.contact {
+  width: 98px;
+  height: 24px;
+  position: absolute;
+  right: 141px;
+  top: 128px;
+}
+
+.contact-default {
+  color: var(--primary-dark-grey);
+  text-align: center;
+  font: var(--buttons, 500 25px "Space Grotesk", sans-serif);
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 98px;
+  height: 24px;
+}
+
+.bottom {
+  height: 112px;
+  position: absolute;
+  right: 0px;
+  left: 0px;
+  bottom: 0px;
+  overflow: hidden;
+}
+
+.buttom {
+  background: var(--primary-dark-grey);
+  width: 1440px;
+  height: 112px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+
+.buttomline {
+  background: var(--primary-light-red, #ef233c);
+  width: 1440px;
+  height: 8px;
+  position: absolute;
+  left: 0px;
+  top: 80px;
+}
+
+.frame-2 {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  align-items: center;
+  justify-content: flex-start;
+  width: 328.49px;
+  height: 39px;
+  position: absolute;
+  left: calc(50% - 164px);
+  top: 24px;
+}
+
+.created-by-hu-shengyuan {
+  color: #ffffff;
+  text-align: center;
+  font: var(--primary-content, 300 20px/24px "Space Grotesk", sans-serif);
+  position: relative;
+  width: 324px;
+  height: 16px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.hushengyuan-030831-gmail-com {
+  color: #ffffff;
+  text-align: center;
+  font: var(--smaller-content, 300 16px/16px "Space Grotesk", sans-serif);
+  position: relative;
+  width: 331px;
+  height: 11px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.images {
+  width: 348px;
+  height: 360px;
+  position: absolute;
+  left: 225px;
+  top: 280px;
+  overflow: hidden;
+}
+
+.de {
+  color: #000000;
+  text-align: center;
+  font: 700 80px "Poppins", sans-serif;
+  position: absolute;
+  left: 182.91px;
+  top: 101.63px;
+  width: 152.53px;
+  height: 102.56px;
+}
+
+.sign {
+  color: #000000;
+  text-align: left;
+  font: 700 72px "Poppins", sans-serif;
+  position: absolute;
+  left: 346px;
+  top: 193px;
+  width: 170px;
+  height: 103px;
+  transform-origin: 0 0;
+  transform: rotate(90deg) scale(1, 1);
+}
+
+.line-2 {
+  border-style: solid;
+  border-color: #000000;
+  border-width: 3px 0 0 0;
+  width: 330.7px;
+  height: 0px;
+  position: absolute;
+  left: 1px;
+  top: 191px;
+  transform-origin: 0 0;
+  transform: rotate(0deg) scale(1, 1);
+}
+
+.line-3 {
+  border-style: solid;
+  border-color: #ff0000;
+  border-width: 3px 0 0 0;
+  width: 295.2px;
+  height: 0px;
+  position: absolute;
+  left: 265px;
+  top: 65.14px;
+  transform-origin: 0 0;
+  transform: rotate(90deg) scale(1, 1);
+}
+
+.kamakura-1-1 {
+  width: 86.13px;
+  height: 122.94px;
+  position: absolute;
+  left: 198.89px;
+  top: 66.45px;
+  transform-origin: 0 0;
+  transform: rotate(0deg) scale(-1, 1);
+}
+
+.board {
+  width: 97.26px;
+  height: 128.83px;
+  position: absolute;
+  left: 2.97px;
+  top: 196.63px;
+}
+
+.mech {
+  width: 121.63px;
+  height: 158.4px;
+  position: absolute;
+  left: 104.88px;
+  top: 196.63px;
+}
+
+.macau-1-1 {
+  width: 105.19px;
+  height: 182.11px;
+  position: absolute;
+  left: 2.97px;
+  top: 7.28px;
+}
