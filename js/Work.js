@@ -9,6 +9,10 @@ function TOHOME() {
   window.location.href = "index.html";
 }
 
+function TOCONTACT() {
+  window.location.href = "Contact.html";
+}
+
 function HomeChange() {
   var btm = document.getElementById("HOME");
   btm.addEventListener("mouseover", function () {
