@@ -5,7 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" type="text/css" href="Font/font.css" />
     <link rel="stylesheet" type="text/css" href="Assets/Home.css" />
+    <script src="js/jquery-1.12.4.js"></script>
     <script src="js/Home.js"></script>
+
     <title>Home</title>
   </head>
   <body>
@@ -137,6 +139,7 @@
         <div class="contact">
           <div
             class="contact-default"
+            onclick="TOCONTACT()"
             onmouseenter="ChangeStart(3);"
             onmouseout="Changeover(3);"
             id="3"
@@ -156,14 +159,17 @@
         </div>
       </div>
       <div class="images">
-        <div class="de">De</div>
-        <div class="sign">sign</div>
-        <div class="line-2"></div>
-        <div class="line-3"></div>
-        <img class="kamakura-1-1" src="Images/Kamakura1-1.png" />
-        <img class="board" src="Images/board.png" />
-        <img class="mech" src="Images/mech.png" />
-        <img class="macau-1-1" src="Images/Macau1-1.png" />
+        <div id="shapes">
+          <div class="de">De</div>
+          <div class="sign">sign</div>
+          <div class="line-2"></div>
+          <div class="line-3"></div>
+        </div>
+
+        <img class="kamakura-1-1" src="Images/Kamakura1-1.png" id="pic1" />
+        <img class="board" src="Images/board.png" id="pic2" />
+        <img class="mech" src="Images/mech.png" id="pic3" />
+        <img class="macau-1-1" src="Images/Macau1-1.png" id="pic4" />
       </div>
     </div>
   </body>
