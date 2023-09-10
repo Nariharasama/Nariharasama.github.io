@@ -70,6 +70,7 @@
   left: 310.5px;
   top: 315px;
   overflow: hidden;
+  display: none;
 }
 
 .work-default {
@@ -293,6 +294,7 @@
   top: 101.63px;
   width: 152.53px;
   height: 102.56px;
+  display: none;
 }
 
 .sign {
@@ -306,6 +308,7 @@
   height: 103px;
   transform-origin: 0 0;
   transform: rotate(90deg) scale(1, 1);
+  display: none;
 }
 
 .line-2 {
@@ -319,6 +322,7 @@
   top: 191px;
   transform-origin: 0 0;
   transform: rotate(0deg) scale(1, 1);
+  display: none;
 }
 
 .line-3 {
@@ -332,6 +336,7 @@
   top: 65.14px;
   transform-origin: 0 0;
   transform: rotate(90deg) scale(1, 1);
+  display: none;
 }
 
 .kamakura-1-1 {
