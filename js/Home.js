@@ -9,6 +9,10 @@ function TOHOME() {
   window.location.href = "Home.html";
 }
 
+function TOCONTACT() {
+  window.location.href = "Contact.html";
+}
+
 function HomeChange() {
   var btm = document.getElementById("HOME");
   btm.addEventListener("mouseover", function () {
@@ -136,6 +140,39 @@ function check() {
   }
 }
 
+function wordin() {
+  $(".big-welcome").fadeIn(500);
+  $(".p-1").fadeIn(700);
+  $(".p-2").fadeIn(700, function () {
+    btnin();
+  });
+}
+
+function btnin() {
+  $(".let-s-go").fadeIn(500);
+}
+
 window.onload = function () {
   var timer = setInterval(check, 20);
+  //$("#shapes > div").hide();
+  $("#pic1").hide();
+  $("#pic2").hide();
+  $("#pic3").hide();
+  $("#pic4").hide();
+  $(".big-welcome").hide();
+  $(".p-1").hide();
+  $(".p-2").hide();
+  //$(".let-s-go").hide();
+  //show everything
+  $("#shapes > div").fadeIn(700);
+  $("#pic1").fadeIn(1000);
+  $("#pic2").fadeIn(1000);
+  $("#pic3").fadeIn(1000);
+  $("#pic4").fadeIn(1000, function () {
+    setTimeout(wordin(), 1000);
+  });
 };
+
+$(document).ready(function () {
+  //hide everything
+});
