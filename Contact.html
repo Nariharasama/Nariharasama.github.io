@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact</title>
+    <link rel="stylesheet" type="text/css" href="Font/font.css" />
+    <link rel="stylesheet" type="text/css" href="Assets/Contact.css" />
+    <script src="js/jquery-1.12.4.js"></script>
+    <script src="js/contact.js"></script>
+    <script src="js/vue.js"></script>
+  </head>
+  <body>
+    <!-- For more settings use the AutoHTML plugin tab ... -->
+    <!--div id="test"><p>{{msg}}</p></div-->
+    <div class="contact">
+      <div class="bottom">
+        <div class="buttom"></div>
+        <div class="buttomline"></div>
+        <div class="frame-2">
+          <div class="created-by-hu-shengyuan">Created By HU SHENGYUAN</div>
+          <div class="hushengyuan-030831-gmail-com">
+            <br />hushengyuan030831@gmail.com
+          </div>
+        </div>
+      </div>
+      <div class="top-bar">
+        <div class="home-logo">
+          <div class="group">
+            <svg
+              class="vector"
+              width="12"
+              height="66"
+              viewBox="0 0 12 66"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M11.3625 0.869102H0.290039V65.2983H11.3625V0.869102Z"
+                fill="black"
+              />
+            </svg>
+            <svg
+              class="vector2"
+              width="43"
+              height="12"
+              viewBox="0 0 43 12"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M42.2031 0.594421H0.927734V11.6609H42.2031V0.594421Z"
+                fill="black"
+              />
+            </svg>
+            <svg
+              class="vector3"
+              width="12"
+              height="13"
+              viewBox="0 0 12 13"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M11.5362 0.311157H0V13H11.5362V0.311157Z"
+                fill="#FF0000"
+              />
+            </svg>
+            <div class="xmlid-1">
+              <svg
+                class="group2"
+                width="41"
+                height="81"
+                viewBox="0 0 41 81"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M40.4204 0.17382V46.8734C39.377 65.2403 23.6668 80.4206 0.0146484 80.5944V68.8906C17.7538 68.8906 29.6958 57.7661 29.6958 41.3691V0.17382H40.4204Z"
+                  fill="black"
+                />
+              </svg>
+              <svg
+                class="group3"
+                width="41"
+                height="69"
+                viewBox="0 0 41 69"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M40.4204 46.8734V0.17382"
+                  stroke="black"
+                  stroke-width="0.25"
+                  stroke-miterlimit="10"
+                />
+                <path
+                  d="M29.6958 41.3112C29.6958 57.7082 17.7538 68.8326 0.0146484 68.8326"
+                  stroke="black"
+                  stroke-width="0.25"
+                  stroke-miterlimit="10"
+                />
+              </svg>
+            </div>
+          </div>
+        </div>
+        <div class="top-space"></div>
+        <div class="home">
+          <!--   Top Bar     -->
+          <div
+            class="home-chosen"
+            onclick="TOHOME();"
+            id="1"
+            onmouseenter="ChangeStart(1);"
+            onmouseout="Changeover(1);"
+          >
+            Home
+          </div>
+        </div>
+        <div class="work">
+          <div
+            class="work-default"
+            onclick="TOWORK()"
+            onmouseenter="ChangeStart(2);"
+            onmouseout="Changeover(2);"
+            id="2"
+          >
+            Work
+          </div>
+        </div>
+        <div class="contact2">
+          <div class="contact-chosen">Contact</div>
+        </div>
+      </div>
+      <!--         Input Form         -->
+      <form>
+        <div class="contact-with-me">Contact With me</div>
+        <input
+          type="text"
+          class="Email-input"
+          value=" Yourmail@yourmail.com "
+          id="email"
+        /><br />
+        <textarea
+          name="content"
+          cols="5"
+          wrap="physical"
+          class="Content-Input"
+          value="Any comment about this site"
+        ></textarea>
+        <div class="your-mail">Your mail</div>
+        <div class="content">Content</div>
+        <botton class="submit" onclick="EmailCheck();" />
+        <div class="submit2">Submit</div>
+      </form>
+    </div>
+  </body>
+</html>
