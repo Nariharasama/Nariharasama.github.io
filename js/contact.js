@@ -2,15 +2,15 @@ var root = document.querySelector(":root");
 var mouseon = [0, 0, 0, 0];
 
 function TOWORK() {
-  window.location.href = "Work.html";
+  window.location.href = "./Work";
 }
 
 function TOHOME() {
-  window.location.href = "index.html";
+  window.location.href = "./";
 }
 
 function TOCONTACT() {
-  window.location.href = "Contact.html";
+  window.location.href = "./Contact";
 }
 
 function HomeChange() {
