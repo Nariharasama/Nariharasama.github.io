@@ -152,7 +152,10 @@ function btnin() {
   $(".let-s-go").fadeIn(500);
 }
 
-window.onload = function () {
+window.onload = function () {};
+
+$(document).ready(function () {
+  //hide everything
   var timer = setInterval(check, 20);
   $("#shapes > div").hide();
   $("#pic1").hide();
@@ -171,8 +174,5 @@ window.onload = function () {
   $("#pic4").fadeIn(1000, function () {
     setTimeout(wordin(), 1000);
   });
-};
-
-$(document).ready(function () {
-  //hide everything
 });
+
