@@ -71,10 +71,10 @@
 }
 
 .learnmore {
-  width: 132px;
+  width: 150px;
   height: 24px;
   position: absolute;
-  left: 180px;
+  left: 160px;
   top: 1000px;
 }
 
@@ -92,7 +92,7 @@
   text-align: left;
   font: var(--primary-content, 300 20px/24px "Space Grotesk", sans-serif);
   position: absolute;
-  left: 180px;
+  left: 160px;
   top: 798px;
   width: 420px;
   height: 186px;
@@ -103,7 +103,7 @@
   text-align: left;
   font: var(--primary-title, 400 48.83px/64px "Space Grotesk", sans-serif);
   position: absolute;
-  left: 180px;
+  left: 160px;
   top: 736px;
   width: 310px;
   height: 35px;
@@ -113,18 +113,17 @@
 }
 
 .contentpic {
-  width: 570px;
   height: 368px;
   position: absolute;
   right: 160px;
+  left: 710px;
   top: 680px;
   overflow: hidden;
 }
-
 .rectangle-7 {
   background: #d9d9d9;
-  width: 1120px;
-  height: 416px;
+  width: 570px;
+  height: 368px;
   position: absolute;
   left: 0px;
   top: 0px;
