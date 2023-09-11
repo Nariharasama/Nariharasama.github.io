@@ -2,14 +2,14 @@
   --primary-deep-red: rgb(217, 4, 41);
   --primary-dark-grey: rgb(43, 45, 66);
 }
-
+.contact,
 .contact * {
   box-sizing: border-box;
 }
 .contact {
   background: #ffffff;
-  width: 1440px;
-  height: 1024px;
+  width: 100%;
+  height: 800px;
   position: relative;
   overflow: hidden;
 }
@@ -23,22 +23,13 @@
   overflow: hidden;
 }
 
-.buttom {
-  background: var(--primary-dark-grey, #2b2d42);
+.rectangle-6 {
+  background: #000000;
   width: 1440px;
   height: 112px;
   position: absolute;
   left: 0px;
   top: 0px;
-}
-
-.buttomline {
-  background: var(--primary-light-red, #ef233c);
-  width: 1440px;
-  height: 8px;
-  position: absolute;
-  left: 0px;
-  top: 80px;
 }
 
 .frame-2 {
@@ -51,7 +42,7 @@
   height: 39px;
   position: absolute;
   left: calc(50% - 164px);
-  top: 24px;
+  top: 36px;
 }
 
 .created-by-hu-shengyuan {
@@ -78,143 +69,13 @@
   justify-content: center;
 }
 
-.top-bar {
-  padding: 0px 100px 0px 100px;
-  height: 184px;
-  position: absolute;
-  right: 0px;
-  left: 0px;
-  top: 0px;
-  overflow: hidden;
-}
-
-.home-logo {
-  width: 56px;
-  height: 81px;
-  position: absolute;
-  left: 141px;
-  top: 71px;
-  overflow: hidden;
-}
-
-.group {
-  position: absolute;
-  inset: 0;
-}
-
-.vector {
-  position: absolute;
-  left: 0.29px;
-  top: 0.87px;
-  overflow: visible;
-}
-
-.vector2 {
-  position: absolute;
-  left: 0.93px;
-  top: 26.59px;
-  overflow: visible;
-}
-
-.vector3 {
-  position: absolute;
-  left: 0px;
-  top: 68.31px;
-  overflow: visible;
-}
-
-.xmlid-1 {
-  width: 40.41px;
-  height: 80.42px;
-  position: static;
-}
-
-.group2 {
-  position: absolute;
-  left: 15.01px;
-  top: 0.17px;
-  overflow: visible;
-}
-
-.group3 {
-  position: absolute;
-  left: 15.01px;
-  top: 0.17px;
-  overflow: visible;
-}
-
-.top-space {
-  width: 680px;
-  height: 8px;
-  position: absolute;
-  left: 233px;
-  top: 144px;
-}
-
-.home {
-  width: 90px;
-  height: 24px;
-  position: absolute;
-  left: 949px;
-  top: 128px;
-}
-
-.home-chosen {
-  color: var(--primary-dark-grey, #2b2d42);
-  text-align: center;
-  font: var(--buttons, 500 25px "Space Grotesk", sans-serif);
-  position: absolute;
-  left: 0px;
-  top: 0px;
-  width: 90px;
-  height: 24px;
-}
-
-.work {
-  width: 90px;
-  height: 24px;
-  position: absolute;
-  left: 1075px;
-  top: 128px;
-}
-
-.work-default {
-  color: var(--primary-dark-grey, #2b2d42);
-  text-align: center;
-  font: var(--buttons, 500 25px "Space Grotesk", sans-serif);
-  position: absolute;
-  left: 0px;
-  top: 0px;
-  width: 90px;
-  height: 24px;
-}
-
-.contact2 {
-  width: 98px;
-  height: 24px;
-  position: absolute;
-  left: 1201px;
-  top: 128px;
-}
-
-.contact-chosen {
-  color: var(--primary-deep-red, #d90429);
-  text-align: center;
-  font: var(--buttons, 500 25px "Space Grotesk", sans-serif);
-  position: absolute;
-  left: 0px;
-  top: 0px;
-  width: 98px;
-  height: 24px;
-}
-
 .contact-with-me {
   color: #000000;
   text-align: center;
   font: var(--primary-title, 400 48.83px/64px "Space Grotesk", sans-serif);
   position: absolute;
   left: 490px;
-  top: 232px;
+  top: 136px;
   width: 459px;
   height: 48px;
   display: flex;
@@ -222,7 +83,7 @@
   justify-content: center;
 }
 
-.Email-input {
+.email-input {
   background: var(--primary-background, #edf2f4);
   border-radius: 8px;
   border-style: solid;
@@ -232,13 +93,13 @@
   position: absolute;
   right: 400px;
   left: 400px;
-  top: 400px;
+  top: 264px;
   color: #000000;
   text-align: left;
   font: var(--primary-content, 300 20px/24px "Space Grotesk", sans-serif);
 }
 
-.Content-Input {
+.content-input {
   background: var(--primary-background, #edf2f4);
   border-radius: 8px;
   border-style: solid;
@@ -248,7 +109,7 @@
   position: absolute;
   right: 400px;
   left: 400px;
-  top: 488px;
+  top: 352px;
   color: #000000;
   text-align: left;
   font: var(--primary-content, 300 20px/24px "Space Grotesk", sans-serif);
@@ -260,7 +121,7 @@
   font: var(--sub-title, 400 31.25px/40px "Space Grotesk", sans-serif);
   position: absolute;
   left: 389px;
-  top: 360px;
+  top: 224px;
   width: 157px;
   height: 32px;
   display: flex;
@@ -274,7 +135,7 @@
   font: var(--sub-title, 400 31.25px/40px "Space Grotesk", sans-serif);
   position: absolute;
   left: 389px;
-  top: 448px;
+  top: 312px;
   width: 157px;
   height: 32px;
   display: flex;
@@ -282,58 +143,145 @@
   justify-content: center;
 }
 
-.how-can-i-get-in-touch-with-you {
-  color: #000000;
-  text-align: center;
-  font: var(--primary-content, 300 20px/24px "Space Grotesk", sans-serif);
-  opacity: 0.5;
-  position: absolute;
-  left: 418px;
-  top: 405px;
-  display: flex;
-  align-items: flex-end;
-  justify-content: center;
-}
-
-.any-comment-about-this-site {
-  color: #000000;
-  text-align: center;
-  font: var(--primary-content, 300 20px/24px "Space Grotesk", sans-serif);
-  opacity: 0.5;
-  position: absolute;
-  left: 418px;
-  top: 495px;
-  display: flex;
-  align-items: flex-end;
-  justify-content: center;
-}
-
 .submit {
-  background: var(--primary-light-grey, #8d99ae);
   border-radius: 8px;
   border-style: solid;
   border-color: var(--primary-dark-grey, #2b2d42);
-  border-width: 0px;
+  border-width: 1px;
   padding: 6px 0px 6px 0px;
   display: flex;
   flex-direction: row;
   gap: 10px;
   align-items: center;
   justify-content: center;
-  width: 200px;
   height: 40px;
   position: absolute;
-  left: 620px;
-  top: 736px;
+  right: 600px;
+  left: 600px;
+  top: calc(50% - -192px);
   overflow: hidden;
 }
-
 .submit2 {
-  color: #ffffff;
+  color: #000000;
   text-align: center;
   font: var(--buttons, 500 25px "Space Grotesk", sans-serif);
   position: relative;
   display: flex;
   align-items: flex-end;
   justify-content: center;
+}
+
+.top-bar {
+  padding: 0px 100px 0px 100px;
+  height: 144px;
+  position: absolute;
+  right: 0px;
+  left: 0px;
+  top: 0px;
+  overflow: hidden;
+}
+.home-logo {
+  width: 48px;
+  height: 69px;
+  position: absolute;
+  left: 160px;
+  top: 27px;
+  overflow: hidden;
+}
+.group {
+  position: absolute;
+  inset: 0;
+}
+.vector {
+  position: absolute;
+  left: 0.25px;
+  top: 0.74px;
+  overflow: visible;
+}
+.vector2 {
+  position: absolute;
+  left: 0.8px;
+  top: 22.65px;
+  overflow: visible;
+}
+.vector3 {
+  position: absolute;
+  left: 0px;
+  top: 58.19px;
+  overflow: visible;
+}
+.xmlid-1 {
+  width: 34.63px;
+  height: 68.51px;
+  position: static;
+}
+.group2 {
+  position: absolute;
+  left: 12.87px;
+  top: 0.15px;
+  overflow: visible;
+}
+.group3 {
+  position: absolute;
+  left: 12.87px;
+  top: 0.15px;
+  overflow: visible;
+}
+.top-space {
+  width: 680px;
+  height: 8px;
+  position: absolute;
+  left: 233px;
+  top: 144px;
+}
+.home {
+  width: 90px;
+  height: 24px;
+  position: absolute;
+  right: 419px;
+  top: 76px;
+}
+.home-chosen {
+  color: var(--primary-dark-grey, #2b2d42);
+  text-align: center;
+  font: var(--buttons, 500 25px "Space Grotesk", sans-serif);
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 90px;
+  height: 24px;
+}
+.work {
+  width: 90px;
+  height: 24px;
+  position: absolute;
+  right: 293px;
+  top: 76px;
+}
+.work-default {
+  color: var(--primary-dark-grey, #2b2d42);
+  text-align: center;
+  font: var(--buttons, 500 25px "Space Grotesk", sans-serif);
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 90px;
+  height: 24px;
+}
+.contact2 {
+  width: 98px;
+  height: 24px;
+  position: absolute;
+  right: 159px;
+  top: 76px;
+}
+.contact-chosen {
+  color: var(--primary-deep-red, #d90429);
+  text-align: center;
+  font: var(--buttons, 500 25px "Space Grotesk", sans-serif);
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 98px;
+  height: 24px;
 }

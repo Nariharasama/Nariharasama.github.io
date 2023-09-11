@@ -3,13 +3,14 @@
   --primary-dark-grey: rgb(43, 45, 66);
 }
 
+.work,
 .work * {
   box-sizing: border-box;
 }
 .work {
   background: #ffffff;
-  width: 1440px;
-  height: 1894px;
+  width: 100%;
+  height: 1240px;
   position: relative;
   overflow: hidden;
 }
@@ -23,22 +24,13 @@
   overflow: hidden;
 }
 
-.buttom {
-  background: var(--primary-dark-grey, #2b2d42);
+.rectangle-6 {
+  background: #000000;
   width: 1440px;
   height: 112px;
   position: absolute;
   left: 0px;
   top: 0px;
-}
-
-.buttomline {
-  background: var(--primary-light-red, #ef233c);
-  width: 1440px;
-  height: 8px;
-  position: absolute;
-  left: 0px;
-  top: 80px;
 }
 
 .frame-2 {
@@ -51,7 +43,7 @@
   height: 39px;
   position: absolute;
   left: calc(50% - 164px);
-  top: 24px;
+  top: 36px;
 }
 
 .created-by-hu-shengyuan {
@@ -78,9 +70,145 @@
   justify-content: center;
 }
 
+.learnmore {
+  width: 150px;
+  height: 24px;
+  position: absolute;
+  left: 180px;
+  top: 1000px;
+}
+
+.learnmore-default {
+  color: var(--primary-dark-grey, #2b2d42);
+  text-align: center;
+  font: var(--buttons, 500 25px "Space Grotesk", sans-serif);
+  position: absolute;
+  left: -2.73px;
+  top: 0px;
+}
+
+.text-content {
+  color: #000000;
+  text-align: left;
+  font: var(--primary-content, 300 20px/24px "Space Grotesk", sans-serif);
+  position: absolute;
+  left: 180px;
+  top: 798px;
+  width: 420px;
+  height: 186px;
+}
+
+.content-topic {
+  color: #000000;
+  text-align: left;
+  font: var(--primary-title, 400 48.83px/64px "Space Grotesk", sans-serif);
+  position: absolute;
+  left: 180px;
+  top: 736px;
+  width: 310px;
+  height: 35px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-start;
+}
+
+.contentpic {
+  width: 570px;
+  height: 368px;
+  position: absolute;
+  left: 710px;
+  top: 680px;
+  overflow: hidden;
+}
+
+.rectangle-7 {
+  background: #d9d9d9;
+  width: 1120px;
+  height: 416px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+
+.contents {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 1121px;
+  position: absolute;
+  left: 160px;
+  top: 416px;
+  overflow-x: auto;
+}
+
+.content-1 {
+  background: #d9d9d9;
+  flex-shrink: 0;
+  width: 330px;
+  height: 184px;
+  position: relative;
+}
+
+.content-2 {
+  background: #d9d9d9;
+  flex-shrink: 0;
+  width: 310px;
+  height: 184px;
+  position: relative;
+}
+
+.content-3 {
+  background: #d9d9d9;
+  flex-shrink: 0;
+  width: 310px;
+  height: 184px;
+  position: relative;
+}
+
+.content-4 {
+  background: #d9d9d9;
+  flex-shrink: 0;
+  width: 310px;
+  height: 184px;
+  position: relative;
+}
+
+.content-5 {
+  background: #d9d9d9;
+  flex-shrink: 0;
+  width: 310px;
+  height: 184px;
+  position: relative;
+}
+
+.topcontent {
+  background: #d9d9d9;
+  width: 1121px;
+  height: 192px;
+  position: absolute;
+  left: 160px;
+  top: 208px;
+}
+
+.topic {
+  color: #000000;
+  text-align: left;
+  font: var(--primary-title, 400 48.83px/64px "Space Grotesk", sans-serif);
+  position: absolute;
+  left: 160px;
+  top: 160px;
+  width: 310px;
+  height: 40px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-start;
+}
+
 .top-bar {
   padding: 0px 100px 0px 100px;
-  height: 176px;
+  height: 144px;
   position: absolute;
   right: 0px;
   left: 0px;
@@ -89,11 +217,11 @@
 }
 
 .home-logo {
-  width: 56px;
-  height: 81px;
+  width: 48px;
+  height: 69px;
   position: absolute;
-  left: 141px;
-  top: 71px;
+  left: 160px;
+  top: 27px;
   overflow: hidden;
 }
 
@@ -104,42 +232,42 @@
 
 .vector {
   position: absolute;
-  left: 0.29px;
-  top: 0.87px;
+  left: 0.25px;
+  top: 0.74px;
   overflow: visible;
 }
 
 .vector2 {
   position: absolute;
-  left: 0.93px;
-  top: 26.59px;
+  left: 0.8px;
+  top: 22.65px;
   overflow: visible;
 }
 
 .vector3 {
   position: absolute;
   left: 0px;
-  top: 68.31px;
+  top: 58.19px;
   overflow: visible;
 }
 
 .xmlid-1 {
-  width: 40.41px;
-  height: 80.42px;
+  width: 34.63px;
+  height: 68.51px;
   position: static;
 }
 
 .group2 {
   position: absolute;
-  left: 15.01px;
-  top: 0.17px;
+  left: 12.87px;
+  top: 0.15px;
   overflow: visible;
 }
 
 .group3 {
   position: absolute;
-  left: 15.01px;
-  top: 0.17px;
+  left: 12.87px;
+  top: 0.15px;
   overflow: visible;
 }
 
@@ -155,16 +283,8 @@
   width: 90px;
   height: 24px;
   position: absolute;
-  left: 949px;
-  top: 128px;
-}
-
-.home2 {
-  width: 90px;
-  height: 24px;
-  position: absolute;
-  left: 0px;
-  top: 0px;
+  right: 419px;
+  top: 76px;
 }
 
 .home-chosen {
@@ -182,8 +302,8 @@
   width: 90px;
   height: 24px;
   position: absolute;
-  left: 1075px;
-  top: 128px;
+  right: 293px;
+  top: 76px;
 }
 
 .work-chosen {
@@ -201,8 +321,8 @@
   width: 98px;
   height: 24px;
   position: absolute;
-  left: 1201px;
-  top: 128px;
+  right: 159px;
+  top: 76px;
 }
 
 .contact-default {
@@ -214,107 +334,4 @@
   top: 0px;
   width: 98px;
   height: 24px;
-}
-
-.about-me {
-  width: 1300px;
-  height: 616px;
-  position: absolute;
-  left: 70px;
-  top: 1088px;
-  overflow: hidden;
-}
-
-.rectangle-3 {
-  background: #d9d9d9;
-  width: 1300px;
-  height: 720px;
-  position: absolute;
-  left: 0px;
-  top: 0px;
-}
-
-.current-content {
-  background: var(--primary-dark-grey, #2b2d42);
-  width: 1300px;
-  height: 104px;
-  position: absolute;
-  left: 70px;
-  top: 920px;
-}
-
-.topic {
-  color: #ffffff;
-  text-align: left;
-  font: var(--primary-title, 400 48.83px/64px "Space Grotesk", sans-serif);
-  position: absolute;
-  left: 180px;
-  top: 965px;
-  width: 310px;
-  height: 40px;
-  display: flex;
-  align-items: flex-end;
-  justify-content: flex-start;
-}
-
-.contents {
-  display: flex;
-  flex-direction: row;
-  gap: 20px;
-  align-items: flex-start;
-  justify-content: flex-start;
-  width: 1080px;
-  position: absolute;
-  left: 180px;
-  top: 552px;
-  overflow-x: auto;
-}
-
-.content-1 {
-  background: #d9d9d9;
-  flex-shrink: 0;
-  width: 310px;
-  height: 304px;
-  position: relative;
-}
-
-.content-2 {
-  background: #d9d9d9;
-  flex-shrink: 0;
-  width: 310px;
-  height: 304px;
-  position: relative;
-}
-
-.content-3 {
-  background: #d9d9d9;
-  flex-shrink: 0;
-  width: 310px;
-  height: 304px;
-  position: relative;
-}
-
-.content-4 {
-  background: #d9d9d9;
-  flex-shrink: 0;
-  width: 310px;
-  height: 304px;
-  position: relative;
-}
-
-.content-5 {
-  background: #d9d9d9;
-  flex-shrink: 0;
-  width: 310px;
-  height: 304px;
-  position: relative;
-}
-
-.topcontent {
-  background: #d9d9d9;
-  width: 1080px;
-  height: 272px;
-  position: absolute;
-  left: 180px;
-  top: 256px;
 }
