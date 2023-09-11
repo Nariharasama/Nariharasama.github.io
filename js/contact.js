@@ -155,8 +155,10 @@ window.onload = function () {
   var timer = setInterval(check, 20);
   $(".submit").mouseover(function () {
     $(this).css("background", "black");
+    $(".submit2").css("color", "white");
   });
   $(".submit").mouseout(function () {
-    $(this).css("background", "#8d99ae");
+    $(this).css("background", "white");
+    $(".submit2").css("color", "black");
   });
 };

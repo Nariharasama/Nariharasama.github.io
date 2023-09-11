@@ -154,7 +154,7 @@ function btnin() {
 
 window.onload = function () {
   var timer = setInterval(check, 20);
-  //$("#shapes > div").hide();
+  $("#shapes > div").hide();
   $("#pic1").hide();
   $("#pic2").hide();
   $("#pic3").hide();
@@ -162,7 +162,7 @@ window.onload = function () {
   $(".big-welcome").hide();
   $(".p-1").hide();
   $(".p-2").hide();
-  //$(".let-s-go").hide();
+  $(".let-s-go").hide();
   //show everything
   $("#shapes > div").fadeIn(700);
   $("#pic1").fadeIn(1000);
