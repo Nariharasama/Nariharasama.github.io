@@ -74,8 +74,8 @@
   text-align: center;
   font: var(--primary-title, 400 48.83px/64px "Space Grotesk", sans-serif);
   position: absolute;
-  left: 490px;
-  top: 136px;
+  left: calc(50% - 230px);
+  top: 170px;
   width: 459px;
   height: 48px;
   display: flex;
@@ -93,10 +93,7 @@
   position: absolute;
   right: 400px;
   left: 400px;
-  top: 264px;
-  color: #000000;
-  text-align: left;
-  font: var(--primary-content, 300 20px/24px "Space Grotesk", sans-serif);
+  top: calc(50% - 136px);
 }
 
 .content-input {
@@ -109,10 +106,7 @@
   position: absolute;
   right: 400px;
   left: 400px;
-  top: 352px;
-  color: #000000;
-  text-align: left;
-  font: var(--primary-content, 300 20px/24px "Space Grotesk", sans-serif);
+  top: calc(50% - 48px);
 }
 
 .your-mail {
@@ -121,7 +115,7 @@
   font: var(--sub-title, 400 31.25px/40px "Space Grotesk", sans-serif);
   position: absolute;
   left: 389px;
-  top: 224px;
+  top: calc(50% - 165px);
   width: 157px;
   height: 32px;
   display: flex;
@@ -135,7 +129,7 @@
   font: var(--sub-title, 400 31.25px/40px "Space Grotesk", sans-serif);
   position: absolute;
   left: 389px;
-  top: 312px;
+  top: calc(50% - 80px);
   width: 157px;
   height: 32px;
   display: flex;
@@ -156,11 +150,12 @@
   justify-content: center;
   height: 40px;
   position: absolute;
-  right: 600px;
-  left: 600px;
+  right: 500px;
+  left: 500px;
   top: calc(50% - -192px);
   overflow: hidden;
 }
+
 .submit2 {
   color: #000000;
   text-align: center;
@@ -180,6 +175,7 @@
   top: 0px;
   overflow: hidden;
 }
+
 .home-logo {
   width: 48px;
   height: 69px;
@@ -188,45 +184,53 @@
   top: 27px;
   overflow: hidden;
 }
+
 .group {
   position: absolute;
   inset: 0;
 }
+
 .vector {
   position: absolute;
   left: 0.25px;
   top: 0.74px;
   overflow: visible;
 }
+
 .vector2 {
   position: absolute;
   left: 0.8px;
   top: 22.65px;
   overflow: visible;
 }
+
 .vector3 {
   position: absolute;
   left: 0px;
   top: 58.19px;
   overflow: visible;
 }
+
 .xmlid-1 {
   width: 34.63px;
   height: 68.51px;
   position: static;
 }
+
 .group2 {
   position: absolute;
   left: 12.87px;
   top: 0.15px;
   overflow: visible;
 }
+
 .group3 {
   position: absolute;
   left: 12.87px;
   top: 0.15px;
   overflow: visible;
 }
+
 .top-space {
   width: 680px;
   height: 8px;
@@ -234,6 +238,7 @@
   left: 233px;
   top: 144px;
 }
+
 .home {
   width: 90px;
   height: 24px;
@@ -241,6 +246,7 @@
   right: 419px;
   top: 76px;
 }
+
 .home-chosen {
   color: var(--primary-dark-grey, #2b2d42);
   text-align: center;
@@ -251,6 +257,7 @@
   width: 90px;
   height: 24px;
 }
+
 .work {
   width: 90px;
   height: 24px;
@@ -258,6 +265,7 @@
   right: 293px;
   top: 76px;
 }
+
 .work-default {
   color: var(--primary-dark-grey, #2b2d42);
   text-align: center;
@@ -268,6 +276,7 @@
   width: 90px;
   height: 24px;
 }
+
 .contact2 {
   width: 98px;
   height: 24px;
@@ -275,6 +284,7 @@
   right: 159px;
   top: 76px;
 }
+
 .contact-chosen {
   color: var(--primary-deep-red, #d90429);
   text-align: center;
