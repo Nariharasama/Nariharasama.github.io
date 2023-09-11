@@ -12,11 +12,9 @@
   </head>
   <body>
     <!-- For more settings use the AutoHTML plugin tab ... -->
-    <!--div id="test"><p>{{msg}}</p></div-->
     <div class="contact">
       <div class="bottom">
-        <div class="buttom"></div>
-        <div class="buttomline"></div>
+        <div class="rectangle-6"></div>
         <div class="frame-2">
           <div class="created-by-hu-shengyuan">Created By HU SHENGYUAN</div>
           <div class="hushengyuan-030831-gmail-com">
@@ -24,78 +22,92 @@
           </div>
         </div>
       </div>
+
+      <form>
+        <div class="contact-with-me">Contact With me</div>
+        <input
+          type="text"
+          class="email-input"
+          id="email"
+          value="Yourmail@yourmail.com"
+        />
+        <textarea class="content-input"></textarea>
+        <div class="your-mail">Your mail</div>
+        <div class="content">Content</div>
+        <button class="submit" onclick="EmailCheck();">
+          <div class="submit2">Submit</div>
+        </button>
+      </form>
+
       <div class="top-bar">
         <div class="home-logo">
           <div class="group">
             <svg
               class="vector"
-              width="12"
-              height="66"
-              viewBox="0 0 12 66"
+              width="10"
+              height="56"
+              viewBox="0 0 10 56"
               fill="none"
               xmlns="http://www.w3.org/2000/svg"
             >
               <path
-                d="M11.3625 0.869102H0.290039V65.2983H11.3625V0.869102Z"
+                d="M9.73922 0.740341H0.248535V55.6245H9.73922V0.740341Z"
                 fill="black"
               />
             </svg>
             <svg
               class="vector2"
-              width="43"
-              height="12"
-              viewBox="0 0 43 12"
+              width="37"
+              height="11"
+              viewBox="0 0 37 11"
               fill="none"
               xmlns="http://www.w3.org/2000/svg"
             >
               <path
-                d="M42.2031 0.594421H0.927734V11.6609H42.2031V0.594421Z"
+                d="M36.1738 0.65451H0.794922V10.0815H36.1738V0.65451Z"
                 fill="black"
               />
             </svg>
             <svg
               class="vector3"
-              width="12"
-              height="13"
-              viewBox="0 0 12 13"
+              width="10"
+              height="11"
+              viewBox="0 0 10 11"
               fill="none"
               xmlns="http://www.w3.org/2000/svg"
             >
-              <path
-                d="M11.5362 0.311157H0V13H11.5362V0.311157Z"
-                fill="#FF0000"
-              />
+              <path d="M9.8882 0.190987H0V11H9.8882V0.190987Z" fill="#FF0000" />
             </svg>
             <div class="xmlid-1">
               <svg
                 class="group2"
-                width="41"
-                height="81"
-                viewBox="0 0 41 81"
+                width="36"
+                height="69"
+                viewBox="0 0 36 69"
                 fill="none"
                 xmlns="http://www.w3.org/2000/svg"
               >
                 <path
-                  d="M40.4204 0.17382V46.8734C39.377 65.2403 23.6668 80.4206 0.0146484 80.5944V68.8906C17.7538 68.8906 29.6958 57.7661 29.6958 41.3691V0.17382H40.4204Z"
+                  d="M35.5032 0.148071V39.9292C34.6088 55.5751 21.1429 68.5064 0.869629 68.6545V58.6846C16.0746 58.6846 26.3106 49.2082 26.3106 35.2403V0.148071H35.5032Z"
                   fill="black"
                 />
               </svg>
               <svg
                 class="group3"
-                width="41"
-                height="69"
-                viewBox="0 0 41 69"
+                width="36"
+                height="59"
+                viewBox="0 0 36 59"
                 fill="none"
                 xmlns="http://www.w3.org/2000/svg"
               >
                 <path
-                  d="M40.4204 46.8734V0.17382"
+                  d="M35.5029 39.9292V0.148071"
                   stroke="black"
                   stroke-width="0.25"
                   stroke-miterlimit="10"
                 />
                 <path
-                  d="M29.6958 41.3112C29.6958 57.7082 17.7538 68.8326 0.0146484 68.8326"
+                  d="M26.3106 35.191C26.3106 49.1588 16.0746 58.6352 0.869629 58.6352"
                   stroke="black"
                   stroke-width="0.25"
                   stroke-miterlimit="10"
@@ -106,13 +118,12 @@
         </div>
         <div class="top-space"></div>
         <div class="home">
-          <!--   Top Bar     -->
           <div
             class="home-chosen"
-            onclick="TOHOME();"
-            id="1"
+            onclick="TOHOME()"
             onmouseenter="ChangeStart(1);"
             onmouseout="Changeover(1);"
+            id="1"
           >
             Home
           </div>
@@ -132,27 +143,6 @@
           <div class="contact-chosen">Contact</div>
         </div>
       </div>
-      <!--         Input Form         -->
-      <form>
-        <div class="contact-with-me">Contact With me</div>
-        <input
-          type="text"
-          class="Email-input"
-          value=" Yourmail@yourmail.com "
-          id="email"
-        /><br />
-        <textarea
-          name="content"
-          cols="5"
-          wrap="physical"
-          class="Content-Input"
-          value="Any comment about this site"
-        ></textarea>
-        <div class="your-mail">Your mail</div>
-        <div class="content">Content</div>
-        <botton class="submit" onclick="EmailCheck();" />
-        <div class="submit2">Submit</div>
-      </form>
     </div>
   </body>
 </html>
