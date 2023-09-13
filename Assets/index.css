@@ -7,11 +7,11 @@ html {
   font-size: 16px;
 }
 
-.homev-2,
-.homev-2 * {
+.home,
+.home * {
   box-sizing: border-box;
 }
-.homev-2 {
+.home {
   background: #ffffff;
   width: 100%;
   height: 125rem;
@@ -20,7 +20,7 @@ html {
 }
 .top-bar {
   padding: 0rem 4.375rem 0rem 4.375rem;
-  height: 6.5rem;
+  height: 6rem;
   position: absolute;
   right: 0rem;
   left: 0rem;
@@ -33,7 +33,7 @@ html {
   font: var(--sub-title, 400 1.953125rem/2.5rem "Space Grotesk", sans-serif);
   position: absolute;
   left: 9.75rem;
-  bottom: 1.5rem;
+  bottom: 1rem;
   width: 13.9375rem;
   height: 1.4375rem;
   display: flex;
@@ -47,12 +47,12 @@ html {
   left: 24.4625rem;
   top: 1.5625rem;
 }
-.home {
+.home2 {
   width: 5.625rem;
   height: 1.5rem;
   position: absolute;
   right: 19.275rem;
-  bottom: 1.125rem;
+  bottom: 1.5rem;
 }
 .home-chosen {
   color: var(--primary-deep-red, #d90429);
@@ -69,7 +69,7 @@ html {
   height: 1.5rem;
   position: absolute;
   right: 12.075rem;
-  bottom: 1.125rem;
+  bottom: 1.5rem;
 }
 .work-default {
   color: #000000;
@@ -86,7 +86,7 @@ html {
   height: 1.5rem;
   position: absolute;
   right: 4.375rem;
-  bottom: 1.125rem;
+  bottom: 1.5rem;
 }
 .contact-default {
   color: #000000;
@@ -113,7 +113,7 @@ html {
   height: 0rem;
   position: absolute;
   left: 0rem;
-  top: 6.5625rem;
+  top: 5.5rem;
 }
 .myphoto {
   background: #d9d9d9;
@@ -156,7 +156,7 @@ html {
   font: var(--primary-content, 300 1.25rem/1.5rem "Space Grotesk", sans-serif);
   position: absolute;
   left: 1.875rem;
-  top: 8rem;
+  top: 9rem;
   width: 51.875rem;
   height: 5.9375rem;
 }
@@ -178,6 +178,13 @@ html {
   top: 1rem;
   width: 16.3125rem;
   height: 6.5rem;
+}
+.arrow {
+  width: 3.0625rem;
+  height: 2.3125rem;
+  position: absolute;
+  left: 2.3125rem;
+  top: 9.5rem;
 }
 .experience {
   color: var(--primary-deep-red, #d90429);
@@ -393,7 +400,7 @@ html {
   font: var(--smaller-content, 300 1rem/1rem "Space Grotesk", sans-serif);
   position: absolute;
   left: 3.1875rem;
-  top: 4rem;
+  top: 3.8125rem;
   width: 29.3125rem;
   height: 1.125rem;
 }
@@ -412,7 +419,7 @@ html {
   font: var(--sub-title, 400 1.953125rem/2.5rem "Space Grotesk", sans-serif);
   position: absolute;
   left: 1.875rem;
-  top: 1.5rem;
+  top: 1.625rem;
   width: 25.6875rem;
 }
 .skill-3 {
@@ -442,11 +449,4 @@ html {
   bottom: 0rem;
   width: 46.875rem;
   height: 2rem;
-}
-.image-1 {
-  width: 3.0625rem;
-  height: 2.3125rem;
-  position: absolute;
-  left: 41.0625rem;
-  top: 38rem;
 }
