@@ -142,9 +142,6 @@ function checkon() {
   }
 }
 
-var root = document.querySelector(":root");
-var mouseon = [0, 0, 0, 0];
-
 function OnloadEffect() {
   //hide everything
   $(".topic-area").hide();
@@ -210,26 +207,61 @@ function SkillEffect() {
   });
 }
 
+function btnon() {
+  var nowdist = $(".arrow").css("left");
+  //console.log(nowdist);
+  var nowdistdata = nowdist.match(/\d+/);
+  //console.log(parseInt(nowdistdata[0]));
+  var newdata = parseInt(nowdistdata[0]);
+  if (status == 1) {
+    newdata += ($(window).width() / 1440) * 6;
+  }
+  if (status == -1) {
+    newdata -= ($(window).width() / 1440) * 8;
+  }
+  var newdist = newdata + "px";
+  if (status == 1 && newdata <= (15 * 16 * $(window).width()) / 1440) {
+    $(".arrow").css("left", newdist);
+  } else if (status == -1 && newdata >= (2.3 * 16 * $(window).width()) / 1440) {
+    $(".arrow").css("left", newdist);
+  }
+}
+
+var root = document.querySelector(":root");
+var mouseon = [0, 0, 0, 0];
+var status = 0;
+
 $(document).ready(function () {
   var timer1 = setInterval(checkwidth, 100); //responsible width
   var timer2 = setInterval(checkon, 20); //Top Bar color change
+  var timer3 = setInterval(btnon, 10); // explore botton
   OnloadEffect();
+  $(".go-botton").mouseenter(function () {
+    status = 1;
+    console.log("in");
+  });
+  $(".go-botton").mouseleave(function () {
+    status = -1;
+    console.log("OUT");
+  });
 });
 
 $(window).scroll(function () {
   var ExShow = 0;
   var SkillShow = 0;
   var scrollTop = $(window).scrollTop();
-  console.log(scrollTop);
+  //console.log(scrollTop);
   var hei1 = $(".experience").offset().top;
+  var exhei = $(window).height();
+  console.log(exhei);
   //Experience Fadein
-  if (scrollTop >= 0.6 * hei1 && ExShow == 0) {
+  if (scrollTop + exhei >= 1.2 * hei1 && ExShow == 0) {
     ExEffect();
     ExShow = 1;
   }
   //Skill Fadein
   var hei2 = $(".skills").offset().top;
-  if (scrollTop >= 0.6 * hei2 && SkillShow == 0) {
+  if (scrollTop + exhei >= 1.2 * hei2 && SkillShow == 0) {
     SkillEffect();
     SkillShow = 1;
   }
