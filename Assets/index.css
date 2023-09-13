@@ -1,0 +1,452 @@
+:root {
+  --primary-deep-red: rgb(217, 4, 41);
+  --primary-dark-grey: rgb(43, 45, 66);
+}
+
+html {
+  font-size: 16px;
+}
+
+.homev-2,
+.homev-2 * {
+  box-sizing: border-box;
+}
+.homev-2 {
+  background: #ffffff;
+  width: 100%;
+  height: 125rem;
+  position: relative;
+  overflow: hidden;
+}
+.top-bar {
+  padding: 0rem 4.375rem 0rem 4.375rem;
+  height: 6.5rem;
+  position: absolute;
+  right: 0rem;
+  left: 0rem;
+  top: 0rem;
+  overflow: hidden;
+}
+.shengyuan-hu {
+  color: #000000;
+  text-align: center;
+  font: var(--sub-title, 400 1.953125rem/2.5rem "Space Grotesk", sans-serif);
+  position: absolute;
+  left: 9.75rem;
+  bottom: 1.5rem;
+  width: 13.9375rem;
+  height: 1.4375rem;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+.top-bar-space {
+  width: 39.0625rem;
+  height: 3.375rem;
+  position: absolute;
+  left: 24.4625rem;
+  top: 1.5625rem;
+}
+.home {
+  width: 5.625rem;
+  height: 1.5rem;
+  position: absolute;
+  right: 19.275rem;
+  bottom: 1.125rem;
+}
+.home-chosen {
+  color: var(--primary-deep-red, #d90429);
+  text-align: center;
+  font: var(--buttons, 500 1.5625rem "Space Grotesk", sans-serif);
+  position: absolute;
+  left: 0rem;
+  top: 0rem;
+  width: 5.625rem;
+  height: 1.5rem;
+}
+.work {
+  width: 5.625rem;
+  height: 1.5rem;
+  position: absolute;
+  right: 12.075rem;
+  bottom: 1.125rem;
+}
+.work-default {
+  color: #000000;
+  text-align: center;
+  font: var(--buttons, 500 1.5625rem "Space Grotesk", sans-serif);
+  position: absolute;
+  left: 0rem;
+  top: 0rem;
+  width: 5.625rem;
+  height: 1.5rem;
+}
+.contact {
+  width: 6.125rem;
+  height: 1.5rem;
+  position: absolute;
+  right: 4.375rem;
+  bottom: 1.125rem;
+}
+.contact-default {
+  color: #000000;
+  text-align: center;
+  font: var(--buttons, 500 1.5625rem "Space Grotesk", sans-serif);
+  position: absolute;
+  left: 0rem;
+  top: 0rem;
+  width: 6.125rem;
+  height: 1.5rem;
+}
+.logo {
+  width: 2.25rem;
+  height: 3.3125rem;
+  position: absolute;
+  left: 4.375rem;
+  top: 1.6875rem;
+}
+.top-line {
+  border-style: solid;
+  border-color: var(--primary-light-grey, #8d99ae);
+  border-width: 0.0625rem 0 0 0;
+  width: 90rem;
+  height: 0rem;
+  position: absolute;
+  left: 0rem;
+  top: 6.5625rem;
+}
+.myphoto {
+  background: #d9d9d9;
+  position: absolute;
+  right: 4.375rem;
+  left: 59.375rem;
+  bottom: 84rem;
+  top: 11rem;
+  overflow: hidden;
+}
+.macau-1-1-1 {
+  width: 26.25rem;
+  height: 30rem;
+  position: absolute;
+  left: 0rem;
+  top: 0rem;
+}
+.topic-area {
+  background: var(--primary-dark-grey, #2b2d42);
+  width: 53.75rem;
+  height: 16rem;
+  position: absolute;
+  left: 4.375rem;
+  top: 11rem;
+  overflow: hidden;
+}
+.big-welcome {
+  color: #ffffff;
+  text-align: left;
+  font: var(--super-topic, 500 3.815rem/4.5rem "Space Grotesk", sans-serif);
+  position: absolute;
+  left: 1.875rem;
+  top: 1.75rem;
+  width: 46.625rem;
+  height: 3.75rem;
+}
+.brief-intro {
+  color: #ffffff;
+  text-align: left;
+  font: var(--primary-content, 300 1.25rem/1.5rem "Space Grotesk", sans-serif);
+  position: absolute;
+  left: 1.875rem;
+  top: 8rem;
+  width: 51.875rem;
+  height: 5.9375rem;
+}
+.go-botton {
+  background: var(--primary-deep-red, #d90429);
+  width: 19.375rem;
+  height: 12.5rem;
+  position: absolute;
+  left: 38.75rem;
+  top: 28.5rem;
+  overflow: hidden;
+}
+.bottonword {
+  color: #ffffff;
+  text-align: left;
+  font: var(--primary-title, 400 3.051875rem/4rem "Space Grotesk", sans-serif);
+  position: absolute;
+  left: 2rem;
+  top: 1rem;
+  width: 16.3125rem;
+  height: 6.5rem;
+}
+.experience {
+  color: var(--primary-deep-red, #d90429);
+  text-align: left;
+  font: var(--super-topic, 500 3.815rem/4.5rem "Space Grotesk", sans-serif);
+  position: absolute;
+  left: 4.375rem;
+  top: 47.5625rem;
+  width: 23.375rem;
+  height: 3.125rem;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.skills {
+  color: var(--primary-deep-red, #d90429);
+  text-align: left;
+  font: var(--super-topic, 500 3.815rem/4.5rem "Space Grotesk", sans-serif);
+  position: absolute;
+  left: 4.375rem;
+  top: 94.625rem;
+  width: 12.5rem;
+  height: 3.125rem;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.skill-area {
+  background: var(--primary-light-grey, #8d99ae);
+  width: 33.125rem;
+  height: 12.5rem;
+  position: absolute;
+  left: 4.375rem;
+  top: 28.5rem;
+  overflow: hidden;
+}
+.skiils {
+  color: #ffffff;
+  text-align: left;
+  font: var(--smaller-content, 300 1rem/1rem "Space Grotesk", sans-serif);
+  position: absolute;
+  left: 1.875rem;
+  top: 6rem;
+  width: 28.875rem;
+  height: 6rem;
+}
+.content-topic {
+  color: #ffffff;
+  text-align: left;
+  font: var(--secondary-title, 400 2.44125rem/3rem "Space Grotesk", sans-serif);
+  position: absolute;
+  left: 1.875rem;
+  top: 1.5rem;
+  width: 28.875rem;
+  height: 2.5rem;
+}
+.experience-1 {
+  background: var(--primary-dark-grey, #2b2d42);
+  width: 26.25rem;
+  height: 34rem;
+  position: absolute;
+  left: 4.375rem;
+  top: 53rem;
+  overflow: hidden;
+}
+.young-gifted-project {
+  color: #ffffff;
+  text-align: left;
+  font: 400 1.953125rem/2.5rem "Space Grotesk", sans-serif;
+  position: absolute;
+  left: 1.875rem;
+  top: 2.8125rem;
+  width: 22.375rem;
+  height: 2.1875rem;
+}
+.period-1 {
+  color: #ffffff;
+  text-align: left;
+  font: var(--primary-content, 300 1.25rem/1.5rem "Space Grotesk", sans-serif);
+  position: absolute;
+  left: 1.875rem;
+  top: 7rem;
+  width: 23.0625rem;
+  height: 10.9375rem;
+}
+.modeling-pic {
+  width: 26.3125rem;
+  height: 13.5rem;
+  position: absolute;
+  left: 0rem;
+  top: 20.5rem;
+}
+.experience-2 {
+  background: var(--primary-light-red, #ef233c);
+  width: 26.25rem;
+  height: 34rem;
+  position: absolute;
+  left: 31.875rem;
+  top: 53rem;
+  overflow: hidden;
+}
+.elecet {
+  width: 26.3125rem;
+  height: 13.5rem;
+  position: absolute;
+  left: -0.0625rem;
+  top: 20.5rem;
+}
+.industrial-design {
+  color: #ffffff;
+  text-align: left;
+  font: 400 1.953125rem/2.5rem "Space Grotesk", sans-serif;
+  position: absolute;
+  left: 1.875rem;
+  top: 2.8125rem;
+  width: 22.375rem;
+  height: 2.1875rem;
+}
+.period-2 {
+  color: #ffffff;
+  text-align: left;
+  font: var(--primary-content, 300 1.25rem/1.5rem "Space Grotesk", sans-serif);
+  position: absolute;
+  left: 1.875rem;
+  top: 7rem;
+  width: 23.0625rem;
+  height: 11.5625rem;
+}
+.intro-2 {
+  color: #000000;
+  text-align: left;
+  font: var(--smaller-content, 300 1rem/1rem "Space Grotesk", sans-serif);
+  position: absolute;
+  left: 27.6875rem;
+  top: 48rem;
+  width: 19.375rem;
+  height: 2.5rem;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-start;
+}
+.experience-3 {
+  background: var(--primary-dark-grey, #2b2d42);
+  width: 26.25rem;
+  height: 34rem;
+  position: absolute;
+  left: 59.375rem;
+  top: 53rem;
+  overflow: hidden;
+}
+.prototype {
+  width: 26.25rem;
+  height: 13.5rem;
+  position: absolute;
+  left: 0rem;
+  top: 20.5rem;
+}
+.top-d-project {
+  color: #ffffff;
+  text-align: left;
+  font: 400 1.953125rem/2.5rem "Space Grotesk", sans-serif;
+  position: absolute;
+  left: 1.875rem;
+  top: 2.8125rem;
+  width: 22.375rem;
+  height: 2.1875rem;
+}
+.period-22 {
+  color: #ffffff;
+  text-align: left;
+  font: var(--primary-content, 300 1.25rem/1.5rem "Space Grotesk", sans-serif);
+  position: absolute;
+  left: 1.875rem;
+  top: 7rem;
+  width: 23.0625rem;
+  height: 12.0625rem;
+}
+.intro-3 {
+  color: #000000;
+  text-align: left;
+  font: var(--smaller-content, 300 1rem/1rem "Space Grotesk", sans-serif);
+  position: absolute;
+  left: 18.125rem;
+  top: 95.0625rem;
+  width: 19.375rem;
+  height: 2.5rem;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-start;
+}
+.skill-1 {
+  background: var(--primary-light-grey, #8d99ae);
+  width: 40rem;
+  height: 6rem;
+  position: absolute;
+  left: 4.375rem;
+  top: 100rem;
+  overflow: hidden;
+}
+.ski-1 {
+  color: #ffffff;
+  text-align: left;
+  font: var(--sub-title, 400 1.953125rem/2.5rem "Space Grotesk", sans-serif);
+  position: absolute;
+  left: 1.875rem;
+  top: 1.625rem;
+  width: 25.6875rem;
+  height: 2.25rem;
+}
+.soft-1 {
+  color: #ffffff;
+  text-align: left;
+  font: var(--smaller-content, 300 1rem/1rem "Space Grotesk", sans-serif);
+  position: absolute;
+  left: 3.1875rem;
+  top: 4rem;
+  width: 29.3125rem;
+  height: 1.125rem;
+}
+.skill-2 {
+  background: var(--primary-light-grey, #8d99ae);
+  width: 40rem;
+  height: 6rem;
+  position: absolute;
+  left: 45.625rem;
+  top: 100rem;
+  overflow: hidden;
+}
+.ski-12 {
+  color: #ffffff;
+  text-align: left;
+  font: var(--sub-title, 400 1.953125rem/2.5rem "Space Grotesk", sans-serif);
+  position: absolute;
+  left: 1.875rem;
+  top: 1.5rem;
+  width: 25.6875rem;
+}
+.skill-3 {
+  background: var(--primary-light-grey, #8d99ae);
+  width: 40rem;
+  height: 6rem;
+  position: absolute;
+  left: 4.375rem;
+  top: 107rem;
+  overflow: hidden;
+}
+.skill-32 {
+  background: var(--primary-light-grey, #8d99ae);
+  width: 40rem;
+  height: 6rem;
+  position: absolute;
+  left: 45.625rem;
+  top: 107rem;
+  overflow: hidden;
+}
+.creator {
+  color: #000000;
+  text-align: center;
+  font: var(--smaller-content, 300 1rem/1rem "Space Grotesk", sans-serif);
+  position: absolute;
+  left: 18.125rem;
+  bottom: 0rem;
+  width: 46.875rem;
+  height: 2rem;
+}
+.image-1 {
+  width: 3.0625rem;
+  height: 2.3125rem;
+  position: absolute;
+  left: 41.0625rem;
+  top: 38rem;
+}
