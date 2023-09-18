@@ -12,7 +12,7 @@ function checkwidth() {
 
 //href
 function TOWORK() {
-  window.location.href = "./Work.html";
+  window.location.href = "./erro";
 }
 
 function TOHOME() {
