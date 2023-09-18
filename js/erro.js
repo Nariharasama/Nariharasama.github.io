@@ -20,7 +20,7 @@ function TOHOME() {
 }
 
 function TOCONTACT() {
-  window.location.href = "./Contact.html";
+  window.location.href = "./contact.html";
 }
 
 //color change    color->string   data->Array
@@ -133,7 +133,7 @@ function getRGB(rgb) {
 }
 
 function checkon() {
-  for (var i = 0; i < 2; i++) {
+  for (var i = 0; i < 3; i++) {
     if (mouseon[i] == 1) {
       Change(i + 1);
     } else {
@@ -142,55 +142,9 @@ function checkon() {
   }
 }
 
-function OnloadEffect() {
-  //hide everything
-  $(".topic-area").hide();
-  $(".skill-area").hide();
-  $(".go-botton").hide();
-  $(".myphoto").hide();
-  $(".experience-1").hide();
-  $(".experience-2").hide();
-  $(".experience-3").hide();
-  $(".skill-1").hide();
-  $(".skill-2").hide();
-  $(".skill-3").hide();
-  $(".skill-32").hide();
-  //Top effect 01
-  var allwidth1 = $(".topic-area").css("width");
-  //.match(/(\d+)rem/);
-  var varnowwidth1 = 1.75;
-  var varnowwidth2 = 1.125;
-  $(".topic-area").css("width", "1.75rem");
-  $(".topic-area").show();
-  $(".skill-area").css("width", "1.125rem");
-  $(".skill-area").show();
-
-  var area2 = setInterval(function () {
-    varnowwidth2 += 1;
-    $(".skill-area").css("width", varnowwidth2 + "rem");
-    if (varnowwidth2 >= 33.125) {
-      clearInterval(area2);
-    }
-  }, 20);
-
-  var area1 = setInterval(function () {
-    varnowwidth1 += 1;
-    $(".topic-area").css("width", varnowwidth1 + "rem");
-    if (varnowwidth1 >= 53.75) {
-      $(".myphoto").fadeIn(1000, function () {
-        $(".go-botton").fadeIn(1500);
-      });
-      clearInterval(area1);
-    }
-  }, 20);
-
-  console.log(allwidth1);
-  allwidth1 = $(".topic-area").css("width");
-  console.log(allwidth1);
-}
-
 var root = document.querySelector(":root");
 var mouseon = [0, 0, 0, 0];
+var status = 0;
 
 $(window).load(function () {
   var timer1 = setInterval(checkwidth, 100); //responsible width
