@@ -2,7 +2,7 @@ var root = document.querySelector(":root");
 var mouseon = [0, 0, 0, 0];
 
 function TOWORK() {
-  window.location.href = "./Work";
+  window.location.href = "./erro.html";
 }
 
 function TOHOME() {
