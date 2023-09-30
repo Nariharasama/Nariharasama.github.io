@@ -12,15 +12,15 @@ function checkwidth() {
 
 //href
 function TOWORK() {
-  window.location.href = "./erro.html";
+  window.location.href = "./work";
 }
 
 function TOHOME() {
-  window.location.href = "./index.html";
+  window.location.href = "./";
 }
 
 function TOCONTACT() {
-  window.location.href = "./Contact.html";
+  window.location.href = "./contact";
 }
 
 //color change    color->string   data->Array
