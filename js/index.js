@@ -12,7 +12,7 @@ function checkwidth() {
 
 //href
 function TOWORK() {
-  window.location.href = "./erro";
+  window.location.href = "./work";
 }
 
 function TOHOME() {
@@ -20,7 +20,7 @@ function TOHOME() {
 }
 
 function TOCONTACT() {
-  window.location.href = "./contact.html";
+  window.location.href = "./contact";
 }
 
 //color change    color->string   data->Array
