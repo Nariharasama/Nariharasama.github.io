@@ -20,7 +20,7 @@ function TOHOME() {
 }
 
 function TOCONTACT() {
-  window.location.href = "./contact";
+  window.location.href = "./contact.html";
 }
 
 //color change    color->string   data->Array
