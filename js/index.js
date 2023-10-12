@@ -232,6 +232,7 @@ var mouseon = [0, 0, 0, 0];
 var status = 0;
 
 $(document).ready(function () {
+  window.location.href = "./en/index.html";
   var timer1 = setInterval(checkwidth, 100); //responsible width
   var timer2 = setInterval(checkon, 20); //Top Bar color change
   var timer3 = setInterval(btnon, 10); // explore botton
