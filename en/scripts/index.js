@@ -11,6 +11,10 @@ function TOCONTACT() {
   window.location.href = "./contact.html";
 }
 
+function Github() {
+  window.open("https://github.com/Nariharasama");
+}
+
 //color change    color->string   data->Array
 function ChangeStart(id) {
   mouseon[id - 1] = 1;
