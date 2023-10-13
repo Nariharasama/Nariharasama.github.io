@@ -15,6 +15,9 @@ function Github() {
   window.open("https://github.com/Nariharasama");
 }
 
+function Privacy() {
+  window.open("https://docs.github.com/en/site-policy");
+}
 //color change    color->string   data->Array
 function ChangeStart(id) {
   mouseon[id - 1] = 1;

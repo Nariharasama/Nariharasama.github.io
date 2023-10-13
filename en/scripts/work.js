@@ -15,6 +15,10 @@ function Github() {
   window.open("https://github.com/Nariharasama");
 }
 
+function Privacy() {
+  window.open("https://docs.github.com/en/site-policy");
+}
+
 function easycheck1(id) {
   var btn = document.getElementById(id);
   btn.style.color = "rgb(199, 0, 57)";
