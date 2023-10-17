@@ -259,7 +259,7 @@
   width: 84px;
   height: 24px;
   position: absolute;
-  right: 274px;
+  right: 245px;
   bottom: 31px;
   cursor: pointer;
 }
@@ -278,7 +278,7 @@
   width: 26px;
   height: 0px;
   position: absolute;
-  right: 213px;
+  right: 184px;
   bottom: 30px;
   transform-origin: 0 0;
   transform: rotate(-90deg) scale(1, 1);
@@ -292,7 +292,7 @@
   align-items: flex-start;
   justify-content: flex-start;
   position: absolute;
-  right: 99px;
+  right: 70px;
   bottom: 31px;
 }
 

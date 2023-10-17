@@ -1,0 +1,28 @@
+@font-face {
+  font-family: "Space Grotesk";
+  src: url(SpaceGrotesk-VariableFont_wght.ttf);
+}
+
+@font-face {
+  font-family: "PingFang SC";
+  font-weight: Light;
+  src: url(PingFang_SC_Light.ttf);
+}
+
+@font-face {
+  font-family: "PingFang SC";
+  font-weight: Medium;
+  src: url(PingFang_SC_Medium.ttf);
+}
+
+@font-face {
+  font-family: "PingFang SC";
+  font-weight: Regular;
+  src: url(PingFang_SC_Regular.ttf);
+}
+
+@font-face {
+  font-family: "PingFang SC";
+  font-weight: Semibold;
+  src: url(PingFang_SC_Semibold.ttf);
+}

@@ -1,4 +1,8 @@
 //href
+function Language() {
+  window.location.href = "/../cn/work.html";
+}
+
 function TOWORK() {
   window.location.href = "./work.html";
 }

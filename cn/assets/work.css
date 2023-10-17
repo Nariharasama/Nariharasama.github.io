@@ -1,0 +1,613 @@
+.wireframe-work,
+.wireframe-work * {
+  box-sizing: border-box;
+}
+.wireframe-work {
+  background: #ffffff;
+  width: 100%;
+  height: 2200px;
+  position: relative;
+  overflow: hidden;
+}
+
+.header-edge {
+  border-style: solid;
+  border-color: var(--black-25, rgba(39, 32, 34, 0.25));
+  border-width: 1.2px 0 0 0;
+  width: 1440px;
+  height: 0px;
+  position: absolute;
+  left: 0px;
+  top: 72px;
+}
+
+.navigation-menu {
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+  align-items: center;
+  justify-content: flex-start;
+  position: absolute;
+  left: 70px;
+  top: 25.5px;
+}
+
+.home {
+  color: var(--black-100, #272022);
+  text-align: left;
+  font: 500 21px "PingFang SC", sans-serif;
+  position: relative;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-start;
+  cursor: pointer;
+}
+
+.design {
+  color: var(--primary, #c70039);
+  text-align: left;
+  font: 500 21px "PingFang SC", sans-serif;
+  position: relative;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-start;
+  cursor: pointer;
+}
+
+.contact {
+  color: var(--black-100, #272022);
+  text-align: left;
+  font: 500 21px "PingFang SC", sans-serif;
+  position: relative;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-start;
+  cursor: pointer;
+}
+
+.files {
+  color: var(--black-50, rgba(39, 32, 34, 0.5));
+  text-align: left;
+  font: 500 21px "PingFang SC", sans-serif;
+  position: relative;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-start;
+  cursor: not-allowed;
+}
+
+.logo-top {
+  display: flex;
+  flex-direction: row;
+  gap: 32px;
+  align-items: center;
+  justify-content: flex-start;
+  position: absolute;
+  left: calc(50% - 137px);
+  top: 21px;
+}
+
+.image-1 {
+  flex-shrink: 0;
+  width: 22.5px;
+  height: 32px;
+  position: relative;
+}
+
+.shengyuan-hu {
+  color: var(--black-100, #272022);
+  text-align: left;
+  font: var(--h-5, 500 30px "Space Grotesk", sans-serif);
+  position: relative;
+  width: 220px;
+  height: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.header-inner-line {
+  border-style: solid;
+  border-color: rgba(39, 32, 34, 0.75);
+  border-width: 1px 0 0 0;
+  width: 26px;
+  height: 0px;
+  position: absolute;
+  right: 184px;
+  top: 51px;
+  transform-origin: 0 0;
+  transform: rotate(-90deg) scale(1, 1);
+}
+
+.top-icons {
+  background: #ffffff;
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  right: 70px;
+  top: 27px;
+}
+
+.github {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+  cursor: pointer;
+}
+
+.instagram {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+  cursor: pointer;
+}
+
+.youtube {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+  cursor: pointer;
+}
+
+.h-1 {
+  color: var(--black-100, #272022);
+  text-align: left;
+  font: 600 42px "PingFang SC", sans-serif;
+  position: absolute;
+  left: 70px;
+  top: 163px;
+  display: none;
+}
+
+.h-2 {
+  color: var(--black-75, rgba(39, 32, 34, 0.75));
+  text-align: left;
+  font: 400 21px "PingFang SC", sans-serif;
+  position: absolute;
+  left: 72px;
+  top: 221px;
+  width: 233px;
+  height: 42px;
+  display: none;
+}
+
+.h-3 {
+  color: var(--primary, #c70039);
+  text-align: left;
+  font: 400 21px "PingFang SC", sans-serif;
+  position: absolute;
+  left: 70px;
+  top: 256px;
+  display: none;
+}
+
+.h-4 {
+  color: var(--black-75, rgba(39, 32, 34, 0.75));
+  text-align: left;
+  font: 400 24px "PingFang SC", sans-serif;
+  position: absolute;
+  left: 72px;
+  top: 443px;
+  width: 715px;
+  height: 85px;
+  display: none;
+}
+
+.portfolio-botton {
+  color: var(--primary, #c70039);
+  text-align: left;
+  font: 500 20px "PingFang SC", sans-serif;
+  position: absolute;
+  right: 96px;
+  top: 467px;
+  display: none;
+  cursor: pointer;
+}
+
+.share-square {
+  position: absolute;
+  right: 70px;
+  top: 471px;
+  overflow: visible;
+  display: none;
+}
+
+.divide-line-1 {
+  border-style: solid;
+  border-color: var(--black-25, rgba(39, 32, 34, 0.25));
+  border-width: 1px 0 0 0;
+  width: 1440px;
+  height: 0px;
+  position: absolute;
+  left: 0px;
+  top: 650px;
+}
+
+.mainly {
+  color: var(--black-100, #272022);
+  text-align: left;
+  font: 300 60px "PingFang SC", sans-serif;
+  position: absolute;
+  left: calc(50% - 360px);
+  top: 707px;
+  display: none;
+}
+
+.app-1 {
+  display: flex;
+  flex-direction: row;
+  gap: 120px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  left: calc(50% - 420px);
+  top: 848px;
+}
+
+.ae {
+  flex-shrink: 0;
+  width: 120px;
+  height: 120px;
+  position: relative;
+}
+
+.ai {
+  flex-shrink: 0;
+  width: 120px;
+  height: 120px;
+  position: relative;
+}
+
+.ps {
+  flex-shrink: 0;
+  width: 120px;
+  height: 120px;
+  position: relative;
+}
+
+.figma {
+  flex-shrink: 0;
+  width: 120px;
+  height: 120px;
+  position: relative;
+}
+
+.app-2 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  width: 840px;
+  position: absolute;
+  left: calc(50% - 420px);
+  top: 1047px;
+}
+
+.css {
+  flex-shrink: 0;
+  width: 120px;
+  height: 120px;
+  position: relative;
+}
+
+.html {
+  flex-shrink: 0;
+  width: 120px;
+  height: 120px;
+  position: relative;
+}
+
+.js {
+  flex-shrink: 0;
+  width: 120px;
+  height: 120px;
+  position: relative;
+}
+
+.jquery {
+  flex-shrink: 0;
+  width: 120px;
+  height: 120px;
+  position: relative;
+}
+
+.python {
+  flex-shrink: 0;
+  width: 120px;
+  height: 120px;
+  position: relative;
+}
+
+.after-effect {
+  color: var(--black-100, #272022);
+  text-align: center;
+  font: 500 21px "Space Grotesk", sans-serif;
+  position: absolute;
+  left: calc(50% - 419px);
+  top: 978px;
+  display: none;
+}
+
+.css2 {
+  color: var(--black-100, #272022);
+  text-align: center;
+  font: 500 21px "Space Grotesk", sans-serif;
+  position: absolute;
+  left: calc(50% - 382px);
+  top: 1173px;
+  display: none;
+}
+
+.html2 {
+  color: var(--black-100, #272022);
+  text-align: center;
+  font: 500 21px "Space Grotesk", sans-serif;
+  position: absolute;
+  left: calc(50% - 210px);
+  top: 1173px;
+  display: none;
+}
+
+.javascript {
+  color: var(--black-100, #272022);
+  text-align: center;
+  font: 500 21px "Space Grotesk", sans-serif;
+  position: absolute;
+  left: calc(50% - 53px);
+  top: 1173px;
+  display: none;
+}
+
+.j-query {
+  color: var(--black-100, #272022);
+  text-align: center;
+  font: 500 21px "Space Grotesk", sans-serif;
+  position: absolute;
+  left: calc(50% - -142px);
+  top: 1173px;
+  display: none;
+}
+
+.python-3 {
+  color: var(--black-100, #272022);
+  text-align: center;
+  font: 500 21px "Space Grotesk", sans-serif;
+  position: absolute;
+  left: calc(50% - -321px);
+  top: 1173px;
+  display: none;
+}
+
+.adobe-illustrator {
+  color: var(--black-100, #272022);
+  text-align: center;
+  font: 500 21px "Space Grotesk", sans-serif;
+  position: absolute;
+  left: calc(50% - 205px);
+  top: 978px;
+  display: none;
+}
+
+.adobe-photoshop {
+  color: var(--black-100, #272022);
+  text-align: center;
+  font: 500 21px "Space Grotesk", sans-serif;
+  position: absolute;
+  left: calc(50% - -31px);
+  top: 978px;
+  display: none;
+}
+
+.figma2 {
+  color: var(--black-100, #272022);
+  text-align: center;
+  font: 500 21px "Space Grotesk", sans-serif;
+  position: absolute;
+  left: calc(50% - -330px);
+  top: 978px;
+  display: none;
+}
+
+.others {
+  color: var(--black-75, rgba(39, 32, 34, 0.75));
+  text-align: center;
+  font: 400 21px "PingFang SC", sans-serif;
+  position: absolute;
+  left: calc(50% - 303px);
+  top: 1264px;
+  width: 606px;
+  height: 72px;
+  display: none;
+}
+
+.divide-line-2 {
+  border-style: solid;
+  border-color: var(--black-25, rgba(39, 32, 34, 0.25));
+  border-width: 1px 0 0 0;
+  width: 1434px;
+  height: 0px;
+  position: absolute;
+  left: 7px;
+  top: 1500px;
+}
+
+.footer-line {
+  border-style: solid;
+  border-color: var(--black-50, rgba(39, 32, 34, 0.5));
+  border-width: 1px 0 0 0;
+  width: 1440px;
+  height: 0px;
+  position: absolute;
+  left: 0px;
+  bottom: 88px;
+}
+
+.created-by {
+  color: var(--black-75, rgba(39, 32, 34, 0.75));
+  text-align: left;
+  font: 400 14px "Space Grotesk", sans-serif;
+  position: absolute;
+  left: 70px;
+  bottom: 34px;
+}
+
+.gituhub-privacy {
+  color: var(--black-100, #272022);
+  text-align: left;
+  font: 400 14px "Space Grotesk", sans-serif;
+  position: absolute;
+  left: calc(50% - 61px);
+  bottom: 34px;
+  cursor: pointer;
+}
+
+.bottom-inner-line {
+  border-style: solid;
+  border-color: rgba(39, 32, 34, 0.75);
+  border-width: 1px 0 0 0;
+  width: 26px;
+  height: 0px;
+  position: absolute;
+  right: 184px;
+  bottom: 30px;
+  transform-origin: 0 0;
+  transform: rotate(-90deg) scale(1, 1);
+}
+
+.bottom-icons {
+  background: #ffffff;
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  right: 70px;
+  bottom: 31px;
+}
+
+.github2 {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+  cursor: pointer;
+}
+
+.instagram2 {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+  cursor: pointer;
+}
+
+.youtube2 {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+  cursor: pointer;
+}
+
+.translation {
+  width: 108px;
+  height: 24px;
+  position: absolute;
+  right: 232px;
+  top: 26px;
+  cursor: pointer;
+}
+
+.chinese {
+  color: var(--black-75, rgba(39, 32, 34, 0.75));
+  text-align: left;
+  font: 500 15px "PingFang SC", sans-serif;
+  position: absolute;
+  left: 35px;
+  top: 1px;
+  width: 71px;
+  height: 21px;
+}
+
+.language {
+  position: absolute;
+  left: 11px;
+  top: 1px;
+  overflow: visible;
+}
+
+.translation2 {
+  width: 108px;
+  height: 24px;
+  position: absolute;
+  right: 232px;
+  top: 2144px;
+  cursor: pointer;
+}
+
+.language2 {
+  position: absolute;
+  left: 11px;
+  top: 1px;
+  overflow: visible;
+}
+
+.h-42 {
+  color: var(--primary, #c70039);
+  text-align: left;
+  font: 400 21px "PingFang SC", sans-serif;
+  position: absolute;
+  left: 180px;
+  top: 1616px;
+  width: 640px;
+  height: 64px;
+}
+
+.h-5 {
+  color: #000000;
+  text-align: left;
+  font: 500 30px "PingFang SC", sans-serif;
+  position: absolute;
+  left: 180px;
+  top: 1688px;
+  width: 660px;
+  height: 91px;
+}
+
+.to-contact-botton-bottom {
+  width: 336px;
+  height: 26px;
+  position: absolute;
+  left: 180px;
+  top: 1872px;
+  cursor: pointer;
+}
+
+.get-a-mind {
+  color: var(--primary, #c70039);
+  text-align: left;
+  font: 400 21px "PingFang SC", sans-serif;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 322.22px;
+}
+
+.share-square2 {
+  position: absolute;
+  left: 310.52px;
+  top: 5px;
+  overflow: visible;
+}
+
+.access-2 {
+  color: #000000;
+  text-align: left;
+  font: 500 15px "PingFang SC", sans-serif;
+  position: absolute;
+  right: 70px;
+  top: 1734px;
+  width: 310px;
+  height: 48px;
+}
