@@ -3,6 +3,21 @@
   --secondary: rgb(255, 105, 105);
 }
 
+.navigation-menu-small{
+  display: none;
+}
+
+.translation-small{
+  display: none;
+}
+.naviagtor-menu{
+  display: none;
+}
+
+.menu{
+  display: none;
+}
+
 .wireframe-home {
   background: #ffffff;
   width: 100%;
@@ -527,6 +542,21 @@
 /*Middle Size 800-1200px*/
 
 @media (max-width: 1200px) {
+  .navigation-menu-small{
+    display: none;
+  }
+
+  .translation-small{
+    display: none;
+  }
+  .naviagtor-menu{
+    display: none;
+  }
+
+  .menu{
+    display: none;
+  }
+
   .shengyuan-hu{
     display: none;
   }
@@ -1010,6 +1040,477 @@
     position: relative;
     overflow: visible;
   }
+
+
+}
+
+@media(max-width: 800px){
+  .wireframe-home {
+    background: #ffffff;
+    width: 100%;
+    height: 1400px;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .bottom-inner-line{
+    display: none;
+  }
+
+  .navigation-menu{
+    display: none;
+  }
+  .translation{
+    display: none;
+  }
+
+  .header-inner-line{
+    display: none;
+  }
+  .top-icons{
+    display: none;
+  }
+
+  .logo-top {
+    width: 22.5px;
+    height: 32px;
+    position:absolute;
+    right: 30.5px;
+    top: 16px;
+  }
+
+  .image-1 {
+    width: 22.5px;
+    height: 32px;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+  }
+
+  .h-3 {
+    color: var(--black-75, rgba(39, 32, 34, 0.75));
+    text-align: center;
+    font: 400 13px 'Space Grotesk', sans-serif;
+    position: absolute;
+    left: calc(50% - 207px);
+    top: 170px;
+    width: 413px;
+  }
+
+  .access-1 {
+    color: var(--black-100, #272022);
+    text-align: center;
+    font: 500 14px 'Space Grotesk', sans-serif;
+    position: absolute;
+    left: calc(50% - 188px);
+    top: 258px;
+  }
+
+  .divideline-1 {
+    position: absolute;
+    right: 0px;
+    left: 0px;
+    top: 400px;
+    transform: translate(0px, -0.5px);
+    overflow: visible;
+  }
+
+  .education-expereince {
+    color: var(--black-100, #272022);
+    text-align: center;
+    font: 700 36px 'Space Grotesk', sans-serif;
+    position: absolute;
+    left: calc(50% - 190px);
+    top: 424px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center}
+
+  .experience-area {
+    width: 500px;
+    height: 408px;
+    position: absolute;
+    left: calc(50% - 250px);
+    top: 517px;
+  }
+
+  .ep-topic {
+    color: var(--primary, #c70039);
+    text-align: right;
+    font: 500 14px 'Space Grotesk', sans-serif;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 188.72px;
+    height: 80px;
+  }
+
+  .ep-con-1 {
+    color: var(--black-75, rgba(39, 32, 34, 0.75));
+    text-align: left;
+    font: 400 14px 'Space Grotesk', sans-serif;
+    position: absolute;
+    left: 203.68px;
+    top: 0px;
+    width: 296.32px;
+    height: 112px;
+  }
+
+  .ep-topic-2 {
+    color: var(--primary, #c70039);
+    text-align: right;
+    font: 500 14px 'Space Grotesk', sans-serif;
+    position: absolute;
+    left: 0px;
+    top: 148px;
+    width: 188.72px;
+    height: 80px;
+  }
+
+  .ep-con-2 {
+    color: var(--black-75, rgba(39, 32, 34, 0.75));
+    text-align: left;
+    font: 400 14px 'Space Grotesk', sans-serif;
+    position: absolute;
+    left: 203.68px;
+    top: 148px;
+    width: 296.32px;
+    height: 112px;
+  }
+
+  .ep-topic-3 {
+    color: var(--primary, #c70039);
+    text-align: right;
+    font: 500 16px 'Space Grotesk', sans-serif;
+    position: absolute;
+    left: 0px;
+    top: 296px;
+    width: 188.72px;
+    height: 80px;
+  }
+
+  .ep-con-3 {
+    color: var(--black-75, rgba(39, 32, 34, 0.75));
+    text-align: left;
+    font: 400 16px 'Space Grotesk', sans-serif;
+    position: absolute;
+    left: 203.68px;
+    top: 296px;
+    width: 296.32px;
+    height: 112px;
+  }
+
+  .footer-line {
+    border-style: solid;
+    border-color: var(--black-50, rgba(39, 32, 34, 0.50));
+    border-width: 1px 0 0 0;
+    height: 0px;
+    position: absolute;
+    right: 0px;
+    left: 0px;
+    bottom: 88px;
+  }
+
+  .divideline-2 {
+    border-style: solid;
+    border-color: var(--black-25, rgba(39, 32, 34, 0.25));
+    border-width: 1px 0 0 0;
+    height: 0px;
+    position: absolute;
+    right: 0px;
+    left: 0px;
+    top: 1000px;
+    transform-origin: 0 0;
+    transform: rotate(0.04deg) scale(1, 1);
+  }
+
+  .to-work-botton-hero-area {
+    width: 185px;
+    height: 27px;
+    position: absolute;
+    left: calc(50% - 93px);
+    top: 315px;
+    box-shadow: 0px 8px 4px 0px rgba(0, 0, 0, 0.25);
+  }
+
+  .rectangle-1 {
+    background: var(--secondary, #ff6969);
+    border-radius: 16px;
+    width: 240px;
+    height: 50px;
+    position: absolute;
+    left: -28px;
+    top: -12px;
+  }
+
+  .find-some-idea {
+    color: #ffffff;
+    text-align: left;
+    font: var(--paragraph, 400 21px 'Space Grotesk', sans-serif);
+    position: absolute;
+    left: -1px;
+    top: -1px;
+  }
+
+  .arrow-right {
+    position: absolute;
+    left: 159px;
+    top: 1px;
+    overflow: visible;
+  }
+
+  .h-4 {
+    color: var(--primary, #c70039);
+    text-align: left;
+    font: 400 16px 'Space Grotesk', sans-serif;
+    position: absolute;
+    left: calc(50% - 250px);
+    top: 1037px;
+    width: 477px;
+    height: 64px;
+  }
+
+  .h-5 {
+    color: #000000;
+    text-align: left;
+    font: 500 16px 'Space Grotesk', sans-serif;
+    position: absolute;
+    left: calc(50% - 250px);
+    top: 1096px;
+    width: 413px;
+    height: 91px;
+  }
+
+  .to-contact-botton-bottom {
+    width: 336px;
+    height: 26px;
+    position: absolute;
+    left: calc(50% - 250px);
+    top: 1216px;
+  }
+
+  .get-a-mind {
+    color: var(--primary, #c70039);
+    text-align: left;
+    font: var(--paragraph, 400 21px 'Space Grotesk', sans-serif);
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 322.22px;
+  }
+
+  .share-square {
+    position: absolute;
+    left: 310.52px;
+    top: 5px;
+    overflow: visible;
+  }
+
+  .access-2 {
+    color: #000000;
+    text-align: left;
+    font: 500 13px 'Space Grotesk', sans-serif;
+    position: absolute;
+    left: calc(50% - 250px);
+    top: 1152px;
+    width: 310px;
+    height: 48px;
+  }
+
+  .created-by {
+    color: var(--black-75, rgba(39, 32, 34, 0.75));
+    text-align: left;
+    font: 400 14px 'Space Grotesk', sans-serif;
+    position: absolute;
+    left: 30px;
+    bottom: 18px;
+  }
+
+  .gituhub-privacy {
+    color: var(--black-100, #272022);
+    text-align: right;
+    font: 400 14px 'Space Grotesk', sans-serif;
+    position: absolute;
+    right: 30px;
+    bottom: 18px;
+  }
+
+  .translation2 {
+    width: 84px;
+    height: 24px;
+    position: absolute;
+    left: 30px;
+    bottom: 45px;
+  }
+
+  .language {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    overflow: visible;
+  }
+
+  .english {
+    color: var(--black-75, rgba(39, 32, 34, 0.75));
+    text-align: left;
+    font: 500 16px 'Space Grotesk', sans-serif;
+    position: absolute;
+    left: 27px;
+    top: 1px;
+    width: 78px;
+    height: 21px;
+  }
+
+  .bottom-icons {
+    background: #ffffff;
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: absolute;
+    right: 30px;
+    bottom: 45px;
+  }
+
+  .github {
+    flex-shrink: 0;
+    position: relative;
+    overflow: visible;
+  }
+
+  .instagram {
+    flex-shrink: 0;
+    position: relative;
+    overflow: visible;
+  }
+
+  .youtube {
+    flex-shrink: 0;
+    position: relative;
+    overflow: visible;
+  }
+
+  .h-1 {
+    color: var(--primary, #c70039);
+    text-align: center;
+    font: 700 32px 'Space Grotesk', sans-serif;
+    position: absolute;
+    left: calc(50% - 165px);
+    top: 97px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center}
+
+  .h-2 {
+    color: var(--black-100, #272022);
+    text-align: center;
+    font: 300 24px 'Space Grotesk', sans-serif;
+    position: absolute;
+    left: calc(50% - 227px);
+    top: 137px;
+    width: 455px;
+    height: 41px;
+  }
+
+  .header-edge {
+    border-style: solid;
+    border-color: var(--black-25, rgba(39, 32, 34, 0.25));
+    border-width: 1.2px 0 0 0;
+    height: 0px;
+    position: absolute;
+    right: 0px;
+    left: 0px;
+    top: 72px;
+  }
+
+  .navigator-menu {
+    background: #ffffff;
+    border-style: solid;
+    border-color: var(--black-50, rgba(39, 32, 34, 0.50));
+    border-width: 1px;
+    width: 140px;
+    height: 240px;
+    position: absolute;
+    left: 0px;
+    top: 80px;
+    overflow: hidden;
+    display: none;
+  }
+
+  .translation-small {
+    width: 84px;
+    height: 24px;
+    position: absolute;
+    left: 29px;
+    top: 199px;
+    display: block;
+    cursor: pointer;}
+
+  .language2 {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    overflow: visible;
+  }
+
+  .navigation-menu-small {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: flex-start;
+    justify-content: center;
+    position: absolute;
+    left: 30px;
+    top: 9px;
+    overflow: hidden;
+  }
+
+  .home {
+    color: var(--primary, #c70039);
+    text-align: left;
+    font: 500 20px 'Space Grotesk', sans-serif;
+    position: relative;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start}
+
+  .work {
+    color: var(--black-100, #272022);
+    text-align: left;
+    font: 500 20px 'Space Grotesk', sans-serif;
+    position: relative;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start}
+
+  .contact {
+    color: var(--black-100, #272022);
+    text-align: left;
+    font: 500 20px 'Space Grotesk', sans-serif;
+    position: relative;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start}
+
+  .files {
+    color: var(--black-50, rgba(39, 32, 34, 0.50));
+    text-align: left;
+    font: 500 20px 'Space Grotesk', sans-serif;
+    position: relative;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start}
+
+  .menu {
+    position: absolute;
+    left: 23px;
+    top: 14px;
+    overflow: visible;
+    display: block;
+    cursor: pointer;
+  }
+
 
 
 }

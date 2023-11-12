@@ -35,6 +35,19 @@ function Changeover(id) {
 
 function ClickCursor() {}
 
+
+function MenuBar(){
+  if ($('#bar').css('display')==='block'){
+    $('#bar').hide();
+  }
+  else{
+    $('#bar').show();
+  }
+
+
+}
+
+
 function Change(id) {
   //get current color
   var btn = document.getElementById(id);
@@ -185,7 +198,8 @@ $(window).scroll(function () {
   //console.log(scrollTop);
   var exhei = $(window).height();
   //Experience Fadein
-  if (exhei + scrollTop >= 1200 && ExShow == 0) {
+  var fullpage=$('.wireframe-home').height();
+  if (exhei + scrollTop >= 1200*fullpage/2200 && ExShow == 0) {
     EdEffect();
     ExShow = 1;
   }
