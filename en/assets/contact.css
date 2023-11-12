@@ -2,6 +2,22 @@
 .wireframe-contact * {
   box-sizing: border-box;
 }
+
+.navigation-menu-small{
+  display: none;
+}
+
+.translation-small{
+  display: none;
+}
+.naviagtor-menu{
+  display: none;
+}
+
+.menu{
+  display: none;
+}
+
 .wireframe-contact {
   background: #ffffff;
   width: 100%;
@@ -236,7 +252,7 @@
   bottom: 88px;
 }
 
-.created-by-shengyuan-hu-xi-an-jiaotong-university-on-gituhubb-pages {
+.created-by {
   color: var(--black-75, rgba(39, 32, 34, 0.75));
   text-align: left;
   font: 400 14px "Space Grotesk", sans-serif;
@@ -245,7 +261,7 @@
   bottom: 34px;
 }
 
-.gituhub-privacy {
+.github-privacy {
   color: var(--black-100, #272022);
   text-align: left;
   font: 400 14px "Space Grotesk", sans-serif;
@@ -315,4 +331,598 @@
   position: relative;
   overflow: visible;
   cursor: pointer;
+}
+
+
+/*800-1200px*/
+/***********/
+/***********/
+
+@media (max-width:1200px) {
+  .wireframe-contact, .wireframe-contact * {
+    box-sizing: border-box;
+  }
+  .wireframe-contact {
+    background: #ffffff;
+    width: 100%;
+    height: 800px;
+    position: relative;
+    overflow: hidden;
+  }
+
+
+  navigation-menu-small{
+    display: none;
+  }
+
+  .translation-small{
+    display: none;
+  }
+  .naviagtor-menu{
+    display: none;
+  }
+
+  .menu{
+    display: none;
+  }
+
+  .shengyuan-hu{
+    display: none;
+  }
+
+  .H1 {
+    color: var(--primary, #c70039);
+    text-align: center;
+    font: 700 28px 'Space Grotesk', sans-serif;
+    position: absolute;
+    left: calc(50% - 369px);
+    top: 176px;
+    width: 739px;
+  }
+
+  .H2 {
+    color: var(--black-75, rgba(39, 32, 34, 0.75));
+    text-align: center;
+    font: 400 20px 'Space Grotesk', sans-serif;
+    position: absolute;
+    left: calc(50% - 369px);
+    top: 246px;
+    width: 739px;
+    height: 90px;
+  }
+
+  .access {
+    color: var(--black-100, #272022);
+    text-align: center;
+    font: 500 24px 'Space Grotesk', sans-serif;
+    position: absolute;
+    left: calc(50% - 369px);
+    top: 392px;
+    width: 739px;
+    height: 67px;
+  }
+
+  .H3 {
+    color: var(--black-75, rgba(39, 32, 34, 0.75));
+    text-align: center;
+    font: 400 20px 'Space Grotesk', sans-serif;
+    position: absolute;
+    left: calc(50% - 369px);
+    top: 494px;
+    width: 739px;
+    height: 60px;
+  }
+
+  .header-edge {
+    border-style: solid;
+    border-color: var(--black-25, rgba(39, 32, 34, 0.25));
+    border-width: 1.2px 0 0 0;
+    width: 1440px;
+    height: 0px;
+    position: absolute;
+    left: 0px;
+    top: 72px;
+  }
+
+  .navigation-menu {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
+    justify-content: flex-start;
+    position: absolute;
+    left: 30px;
+    top: 25.5px;
+  }
+
+  .home {
+    color: var(--black-100, #272022);
+    text-align: left;
+    font: 500 21px 'Space Grotesk', sans-serif;
+    position: relative;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start}
+
+  .work {
+    color: var(--black-100, #272022);
+    text-align: left;
+    font: 500 21px 'Space Grotesk', sans-serif;
+    position: relative;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start}
+
+  .contact {
+    color: var(--primary, #c70039);
+    text-align: left;
+    font: 500 21px 'Space Grotesk', sans-serif;
+    position: relative;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start}
+
+  .files {
+    color: var(--black-50, rgba(39, 32, 34, 0.50));
+    text-align: left;
+    font: 500 21px 'Space Grotesk', sans-serif;
+    position: relative;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start}
+
+  .logo-top {
+    display: flex;
+    flex-direction: row;
+    gap: 32px;
+    align-items: center;
+    justify-content: flex-start;
+    position: absolute;
+    left: calc(50% - 11.19px);
+    top: 21px;
+  }
+
+  .image-1 {
+    flex-shrink: 0;
+    width: 22.5px;
+    height: 32px;
+    position: relative;
+  }
+
+  .translation {
+    width: 84px;
+    height: 24px;
+    position: absolute;
+    right: 179px;
+    top: 27px;
+  }
+
+  .language {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    overflow: visible;
+  }
+
+  .english {
+    color: var(--black-75, rgba(39, 32, 34, 0.75));
+    text-align: left;
+    font: 500 16px 'Space Grotesk', sans-serif;
+    position: absolute;
+    left: 27px;
+    top: 1px;
+    width: 78px;
+    height: 21px;
+  }
+
+  .header-inner-line {
+    border-style: solid;
+    border-color: rgba(39, 32, 34, 0.75);
+    border-width: 1px 0 0 0;
+    width: 26px;
+    height: 0px;
+    position: absolute;
+    right: 131px;
+    top: 51px;
+    transform-origin: 0 0;
+    transform: rotate(-90deg) scale(1, 1);
+  }
+
+  .top-icons {
+    background: #ffffff;
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: absolute;
+    right: 30px;
+    top: 27px;
+  }
+
+  .github {
+    flex-shrink: 0;
+    position: relative;
+    overflow: visible;
+  }
+
+  .instagram {
+    flex-shrink: 0;
+    position: relative;
+    overflow: visible;
+  }
+
+  .youtube {
+    flex-shrink: 0;
+    position: relative;
+    overflow: visible;
+  }
+
+  .footer-line {
+    border-style: solid;
+    border-color: var(--black-50, rgba(39, 32, 34, 0.50));
+    border-width: 1px 0 0 0;
+    width: 1440px;
+    height: 0px;
+    position: absolute;
+    left: 0px;
+    bottom: 88px;
+  }
+
+  .gituhub-privacy {
+    color: var(--black-100, #272022);
+    text-align: left;
+    font: 400 14px 'Space Grotesk', sans-serif;
+    position: absolute;
+    left: calc(50% - 53px);
+    bottom: 34px;
+  }
+
+  .translation2 {
+    width: 84px;
+    height: 24px;
+    position: absolute;
+    right: 179px;
+    bottom: 31px;
+  }
+
+  .language2 {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    overflow: visible;
+  }
+
+  .bottom-inner-line {
+    border-style: solid;
+    border-color: rgba(39, 32, 34, 0.75);
+    border-width: 1px 0 0 0;
+    width: 26px;
+    height: 0px;
+    position: absolute;
+    right: 131px;
+    bottom: 30px;
+    transform-origin: 0 0;
+    transform: rotate(-90deg) scale(1, 1);
+  }
+
+  .bottom-icons {
+    background: #ffffff;
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: absolute;
+    right: 30px;
+    bottom: 31px;
+  }
+
+  .github2 {
+    flex-shrink: 0;
+    position: relative;
+    overflow: visible;
+  }
+
+  .instagram2 {
+    flex-shrink: 0;
+    position: relative;
+    overflow: visible;
+  }
+
+  .youtube2 {
+    flex-shrink: 0;
+    position: relative;
+    overflow: visible;
+  }
+
+  .created-by {
+    color: var(--black-75, rgba(39, 32, 34, 0.75));
+    text-align: left;
+    font: 400 14px 'Space Grotesk', sans-serif;
+    position: absolute;
+    left: 31px;
+    bottom: 35px;
+  }
+
+
+}
+
+/*800px-*/
+
+@media (max-width: 800px) {
+  .bottom-inner-line{
+    display: none;
+  }
+
+  .navigation-menu{
+    display: none;
+  }
+  .translation{
+    display: none;
+  }
+
+  .header-inner-line{
+    display: none;
+  }
+  .top-icons{
+    display: none;
+  }
+  .wireframe-contact, .wireframe-contact * {
+    box-sizing: border-box;
+  }
+  .wireframe-contact {
+    background: #ffffff;
+    width: 100%;
+    height: 640px;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .H1 {
+    color: var(--primary, #c70039);
+    text-align: center;
+    font: 700 18px 'Space Grotesk', sans-serif;
+    position: absolute;
+    left: calc(50% - 250px);
+    top: 130px;
+    width: 500px;
+  }
+
+  .H2{
+    color: var(--black-75, rgba(39, 32, 34, 0.75));
+    text-align: center;
+    font: 400 16px 'Space Grotesk', sans-serif;
+    position: absolute;
+    left: calc(50% - 250px);
+    top: 165px;
+    width: 500px;
+    height: 51px;
+  }
+
+  .access {
+    color: var(--black-100, #272022);
+    text-align: center;
+    font: 500 16px 'Space Grotesk', sans-serif;
+    position: absolute;
+    left: calc(50% - 248px);
+    top: 242px;
+    width: 498px;
+    height: 40px;
+  }
+
+  .H3 {
+    color: var(--black-75, rgba(39, 32, 34, 0.75));
+    text-align: center;
+    font: 400 14px 'Space Grotesk', sans-serif;
+    position: absolute;
+    left: calc(50% - 248px);
+    top: 320px;
+    width: 498px;
+    height: 38px;
+  }
+
+  .header-edge {
+    border-style: solid;
+    border-color: var(--black-25, rgba(39, 32, 34, 0.25));
+    border-width: 1.2px 0 0 0;
+    width: 1440px;
+    height: 0px;
+    position: absolute;
+    left: 0px;
+    top: 72px;
+  }
+
+  .logo-top {
+    display: flex;
+    flex-direction: row;
+    gap: 32px;
+    align-items: center;
+    justify-content: flex-start;
+    position: absolute;
+    left: calc(50% - 11.19px);
+    top: 21px;
+  }
+
+  .image-1 {
+    flex-shrink: 0;
+    width: 22.5px;
+    height: 32px;
+    position: relative;
+  }
+
+  .footer-line {
+    border-style: solid;
+    border-color: var(--black-50, rgba(39, 32, 34, 0.50));
+    border-width: 1px 0 0 0;
+    width: 1440px;
+    height: 0px;
+    position: absolute;
+    left: 0px;
+    bottom: 88px;
+  }
+
+  .created-by {
+    color: var(--black-75, rgba(39, 32, 34, 0.75));
+    text-align: left;
+    font: 400 14px 'Space Grotesk', sans-serif;
+    position: absolute;
+    left: 32px;
+    bottom: 18px;
+  }
+
+  .github-privacy {
+    color: var(--black-100, #272022);
+    text-align: right;
+    font: 400 14px 'Space Grotesk', sans-serif;
+    position: absolute;
+    right: 28px;
+    bottom: 18px;
+  }
+
+  .translation2 {
+    width: 84px;
+    height: 24px;
+    position: absolute;
+    left: 32px;
+    bottom: 45px;
+  }
+
+  .language {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    overflow: visible;
+  }
+
+  .english {
+    color: var(--black-75, rgba(39, 32, 34, 0.75));
+    text-align: left;
+    font: 500 16px 'Space Grotesk', sans-serif;
+    position: absolute;
+    left: 27px;
+    top: 1px;
+    width: 78px;
+    height: 21px;
+  }
+
+  .bottom-icons {
+    background: #ffffff;
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: absolute;
+    right: 28px;
+    bottom: 45px;
+  }
+
+  .github {
+    flex-shrink: 0;
+    position: relative;
+    overflow: visible;
+  }
+
+  .instagram {
+    flex-shrink: 0;
+    position: relative;
+    overflow: visible;
+  }
+
+  .youtube {
+    flex-shrink: 0;
+    position: relative;
+    overflow: visible;
+  }
+
+  .navigator-menu {
+    background: #ffffff;
+    border-style: solid;
+    border-color: var(--black-50, rgba(39, 32, 34, 0.50));
+    border-width: 1px;
+    width: 140px;
+    height: 240px;
+    position: absolute;
+    left: 0px;
+    top: 72px;
+    overflow: hidden;
+    display: none;
+  }
+
+  .translation-small {
+    width: 84px;
+    height: 24px;
+    position: absolute;
+    left: 29px;
+    top: 199px;
+    display: block;
+  }
+
+  .language2 {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    overflow: visible;
+  }
+
+  .navigation-menu-small {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: flex-start;
+    justify-content: center;
+    position: absolute;
+    left: 30px;
+    top: 9px;
+    overflow: hidden;
+  }
+
+  .home {
+    color: var(--black-100, #272022);
+    text-align: left;
+    font: 500 20px 'Space Grotesk', sans-serif;
+    position: relative;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start}
+
+  .work {
+    color: var(--black-100, #272022);
+    text-align: left;
+    font: 500 20px 'Space Grotesk', sans-serif;
+    position: relative;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start}
+
+  .contact {
+    color: var(--primary, #c70039);
+    text-align: left;
+    font: 500 20px 'Space Grotesk', sans-serif;
+    position: relative;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start}
+
+  .files {
+    color: var(--black-50, rgba(39, 32, 34, 0.50));
+    text-align: left;
+    font: 500 20px 'Space Grotesk', sans-serif;
+    position: relative;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start}
+
+  .menu {
+    position: absolute;
+    left: 23px;
+    top: 14px;
+    overflow: visible;
+    display: block;
+    cursor: pointer;
+  }
+
+
+
 }

@@ -23,6 +23,19 @@ function Privacy() {
   window.open("https://docs.github.com/en/site-policy");
 }
 
+
+function MenuBar(){
+  if ($('#bar').css('display')==='block'){
+    $('#bar').hide();
+  }
+  else{
+    $('#bar').show();
+  }
+
+
+}
+
+
 function easycheck1(id) {
   var btn = document.getElementById(id);
   btn.style.color = "rgb(199, 0, 57)";

@@ -23,6 +23,21 @@ function Privacy() {
   window.open("https://docs.github.com/en/site-policy");
 }
 
+
+function MenuBar(){
+  if ($('#bar').css('display')==='block'){
+    $('#bar').hide();
+  }
+  else{
+    $('#bar').show();
+  }
+
+
+}
+
+
+
+
 function easycheck1(id) {
   var btn = document.getElementById(id);
   btn.style.color = "rgb(199, 0, 57)";
@@ -91,8 +106,9 @@ $(window).scroll(function () {
   var scrollTop = $(window).scrollTop();
   //console.log(scrollTop);
   var exhei = $(window).height();
+  var fullpage=$('.wireframe-home').height();
   //Experience Fadein
-  if (exhei + scrollTop >= 1200 && ExShow == 0) {
+  if (exhei + scrollTop >= 1200*fullpage/2200 && ExShow == 0) {
     EdEffect();
     ExShow = 1;
   }

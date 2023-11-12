@@ -912,7 +912,7 @@
     text-align: left;
     font: var(--paragraph, 400 21px 'Space Grotesk', sans-serif);
     position: absolute;
-    left: calc(50% - 370px);
+    left: 30px;
     top: 1339px;
     width: 640px;
     height: 64px;
@@ -923,7 +923,7 @@
     text-align: left;
     font: 500 20px 'Space Grotesk', sans-serif;
     position: absolute;
-    left: calc(50% - 370px);
+    left: 30px;
     top: 1427px;
     width: 660px;
     height: 91px;
@@ -933,7 +933,7 @@
     width: 336px;
     height: 26px;
     position: absolute;
-    left: calc(50% - 370px);
+    left: 30px;
     top: 1595px;
   }
 
@@ -959,7 +959,7 @@
     text-align: left;
     font: 500 15px 'Space Grotesk', sans-serif;
     position: absolute;
-    left: calc(50% - 371px);
+    left: 30px;
     top: 1499px;
     width: 310px;
     height: 48px;
@@ -1264,7 +1264,7 @@
     text-align: left;
     font: 400 16px 'Space Grotesk', sans-serif;
     position: absolute;
-    left: calc(50% - 250px);
+    left: 30px;
     top: 1037px;
     width: 477px;
     height: 64px;
@@ -1275,7 +1275,7 @@
     text-align: left;
     font: 500 16px 'Space Grotesk', sans-serif;
     position: absolute;
-    left: calc(50% - 250px);
+    left: 30px;
     top: 1096px;
     width: 413px;
     height: 91px;
@@ -1285,7 +1285,7 @@
     width: 336px;
     height: 26px;
     position: absolute;
-    left: calc(50% - 250px);
+    left: 30px;
     top: 1216px;
   }
 
@@ -1311,7 +1311,7 @@
     text-align: left;
     font: 500 13px 'Space Grotesk', sans-serif;
     position: absolute;
-    left: calc(50% - 250px);
+    left: 30px;
     top: 1152px;
     width: 310px;
     height: 48px;
