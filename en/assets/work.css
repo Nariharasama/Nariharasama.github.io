@@ -31,10 +31,10 @@
   border-style: solid;
   border-color: var(--black-25, rgba(39, 32, 34, 0.25));
   border-width: 1.2px 0 0 0;
-  width: 1440px;
   height: 0px;
   position: absolute;
   left: 0px;
+  right: 0;
   top: 72px;
 }
 
@@ -262,10 +262,10 @@
   border-style: solid;
   border-color: var(--black-25, rgba(39, 32, 34, 0.25));
   border-width: 1px 0 0 0;
-  width: 1440px;
   height: 0px;
   position: absolute;
   left: 0px;
+  right: 0;
   top: 650px;
 }
 
@@ -470,10 +470,10 @@
   border-style: solid;
   border-color: var(--black-25, rgba(39, 32, 34, 0.25));
   border-width: 1px 0 0 0;
-  width: 1434px;
   height: 0px;
   position: absolute;
   left: 7px;
+  right: 0;
   top: 1500px;
 }
 
@@ -540,10 +540,10 @@
   border-style: solid;
   border-color: var(--black-50, rgba(39, 32, 34, 0.5));
   border-width: 1px 0 0 0;
-  width: 1440px;
   height: 0px;
   position: absolute;
   left: 0px;
+  right: 0;
   bottom: 88px;
 }
 
