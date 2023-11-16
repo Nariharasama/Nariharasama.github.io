@@ -23,6 +23,9 @@ function Privacy() {
   window.open("https://docs.github.com/en/site-policy");
 }
 
+function Portfolio(){
+  window.open("https://share.weiyun.com/xLxuNTgE");
+}
 
 function MenuBar(){
   if ($('#bar').css('display')==='block'){
