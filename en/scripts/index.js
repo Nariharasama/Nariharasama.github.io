@@ -35,18 +35,13 @@ function Changeover(id) {
 
 function ClickCursor() {}
 
-
-function MenuBar(){
-  if ($('#bar').css('display')==='block'){
-    $('#bar').hide();
+function MenuBar() {
+  if ($("#bar").css("display") === "block") {
+    $("#bar").hide();
+  } else {
+    $("#bar").show();
   }
-  else{
-    $('#bar').show();
-  }
-
-
 }
-
 
 function Change(id) {
   //get current color
@@ -169,15 +164,138 @@ function easycheck2(id) {
   var btn = document.getElementById(id);
   btn.style.color = "rgb(39, 32, 34)";
 }
-
-var root = document.querySelector(":root");
-var mouseon = [0, 0, 0, 0];
-var status = 0;
-
 function EdEffect() {
   $(".education-expereince").fadeIn(500);
   $(".experience-area").fadeIn(500);
 }
+
+function Init_Circle() {
+  var Toplimit = $(".header-edge").css("top");
+  var Toplimitpure = parseInt(Toplimit.substr(0, Toplimit.indexOf("p")));
+  var Bottomlimit = $(".divideline-1").css("top");
+  var Bottomlimitpure = parseInt(
+    Bottomlimit.substr(0, Bottomlimit.indexOf("p")),
+  );
+  var Width = $(window).width();
+  //set the area
+  $("#Circles").css({
+    top: Toplimitpure,
+    height: Bottomlimitpure - Toplimitpure,
+    width: Width,
+  });
+  //first 10 circles
+  var sizemin = 20;
+  var sizemax = 50;
+  var size = 0;
+  var posX = 0;
+  var posY = 0;
+  Thiscircle = "";
+  //small ones
+  for (var i = 0; i < 15; i++) {
+    size = parseInt(Math.random() * (sizemax - sizemin) + sizemin);
+    posX = parseInt(Math.random() * Width);
+    posY = parseInt(Math.random() * (Bottomlimitpure - Toplimitpure));
+    Thiscircle =
+      '<div class="circlesmall" style="left:' +
+      posX +
+      "px;top:" +
+      posY +
+      "px;height: " +
+      size +
+      "px;width:" +
+      size +
+      'px"></div>';
+    console.log(Thiscircle);
+    $("#Circles").append(Thiscircle);
+    console.log(i);
+  }
+  //big ones
+  for (var i = 0; i < 7; i++) {
+    size = parseInt(Math.random() * (sizemax - sizemin) * 2 + sizemin) + 100;
+    posX = parseInt(Math.random() * Width);
+    posY = parseInt(Math.random() * (Bottomlimitpure - Toplimitpure));
+    Thiscircle =
+      '<div class="circlebig" style="left:' +
+      posX +
+      "px;top:" +
+      posY +
+      "px;height: " +
+      size +
+      "px;width:" +
+      size +
+      'px"></div>';
+    console.log(Thiscircle);
+    $("#Circles").append(Thiscircle);
+    console.log(i);
+  }
+  var timeset = 0;
+  //animation
+  for (var i = 0; i < 15; i++) {
+    timeset = parseInt(Math.random() * 3000 + 100);
+    $(".circlesmall:eq(" + i + ")")
+      .animate({ opacity: "0.05" }, timeset)
+      .animate({ opacity: "0.5" }, timeset)
+      .animate({ opacity: "0" }, timeset);
+  }
+  for (var i = 0; i < 7; i++) {
+    timeset = parseInt(Math.random() * 5000 + 2000);
+    $(".circlebig:eq(" + i + ")")
+      .animate({ opacity: "0.05" }, timeset)
+      .animate({ opacity: "0.5" }, timeset)
+      .animate({ opacity: "0" }, timeset);
+  }
+}
+
+//update circles
+function Update_Circle() {
+  var small = 0;
+  var big = 0;
+  var Toplimit = $(".header-edge").css("top");
+  var Toplimitpure = parseInt(Toplimit.substr(0, Toplimit.indexOf("p")));
+  var Bottomlimit = $(".divideline-1").css("top");
+  var Bottomlimitpure = parseInt(
+    Bottomlimit.substr(0, Bottomlimit.indexOf("p")),
+  );
+  var Width = $(window).width();
+  var sizemin = 20;
+  var sizemax = 50;
+  var size = 0;
+  var posX = 0;
+  var posY = 0;
+  var timeset = 0;
+  //small ones
+  $(".circlesmall").each(function (index, el) {
+    if ($(el).css("opacity") == 0) {
+      size = parseInt(Math.random() * (sizemax - sizemin) + sizemin);
+      posX = parseInt(Math.random() * Width);
+      posY = parseInt(Math.random() * (Bottomlimitpure - Toplimitpure));
+      timeset = parseInt(Math.random() * 3000 + 100);
+      $(el).css({ top: posY, left: posX, width: size, height: size });
+      $(el)
+        .animate({ opacity: "0.05" }, timeset)
+        .animate({ opacity: "0.5" }, timeset)
+        .animate({ opacity: "0" }, timeset);
+    }
+  });
+  //big ones
+  $(".circlebig").each(function (index, el) {
+    if ($(el).css("opacity") == 0) {
+      size = parseInt(Math.random() * (sizemax - sizemin) * 2 + sizemin) + 100;
+      posX = parseInt(Math.random() * Width);
+      posY = parseInt(Math.random() * (Bottomlimitpure - Toplimitpure));
+      timeset = parseInt(Math.random() * 5000 + 2000);
+      $(el).css({ top: posY, left: posX, width: size, height: size });
+      $(el)
+        .animate({ opacity: "0.05" }, timeset)
+        .animate({ opacity: "0.5" }, timeset)
+        .animate({ opacity: "0" }, timeset);
+    }
+  });
+}
+
+var root = document.querySelector(":root");
+var mouseon = [0, 0, 0, 0];
+var status = 0;
 
 $(document).ready(function () {
   var timer1 = setInterval(checkon, 20); //change botton
@@ -189,6 +307,9 @@ $(document).ready(function () {
       });
     });
   });
+  //circles
+  Init_Circle();
+  setInterval(Update_Circle, 100);
 });
 
 $(window).scroll(function () {
@@ -198,8 +319,8 @@ $(window).scroll(function () {
   //console.log(scrollTop);
   var exhei = $(window).height();
   //Experience Fadein
-  var fullpage=$('.wireframe-home').height();
-  if (exhei + scrollTop >= 1200*fullpage/2200 && ExShow == 0) {
+  var fullpage = $(".wireframe-home").height();
+  if (exhei + scrollTop >= (1200 * fullpage) / 2200 && ExShow == 0) {
     EdEffect();
     ExShow = 1;
   }
