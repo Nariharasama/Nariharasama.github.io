@@ -536,6 +536,24 @@
   cursor: pointer;
 }
 
+.circlesmall{
+  background-color: #ff6969;
+  border-radius: 50%;
+  position: absolute;
+  opacity: 40%;
+}
+.circlebig{
+  background-color: #ff6969;
+  border-radius: 50%;
+  position: absolute;
+  opacity: 40%;
+}
+.Circles{
+  left: 0;
+  position: absolute;
+  overflow: hidden;
+}
+
 
 /*Middle Size 800-1200px*/
 

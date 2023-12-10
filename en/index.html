@@ -1,11 +1,12 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=720px,initial-scale=1" />
-    <meta name="format-detection" content="telephone=no,email=no,address=no"/>
+    <meta name="format-detection" content="telephone=no,email=no,address=no" />
     <link rel="stylesheet" type="text/css" href="Font/font.css" />
     <link rel="stylesheet" type="text/css" href="assets/index.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.3/gsap.min.js"></script>
     <script src="scripts/jquery-1.12.4.js"></script>
     <script src="scripts/index.js"></script>
     <title>Home</title>
@@ -114,6 +115,10 @@
           />
         </svg>
       </div>
+      <div id="Circles" class="Circles">
+        <!-- Circles area-->
+      </div>
+
       <div class="h-1">Hi! I’m Hu shengyuan,</div>
       <div class="h-2">UI Designer &amp; Front-end Developer<br /></div>
       <div class="h-3">
@@ -121,7 +126,9 @@
         as well as making website with code. <br />I’m looking for chance to
         join web development projects and always be ready to learn.
       </div>
-      <div class="access-1">hushengyuan030831@gmail.com &nbsp;&nbsp;&nbsp;(+81)70-3221-0831</div>
+      <div class="access-1">
+        hushengyuan030831@gmail.com &nbsp;&nbsp;&nbsp;(+81)70-3221-0831
+      </div>
       <div class="divideline-1"></div>
       <div class="education-expereince">Education Expereince</div>
       <div class="experience-area">
@@ -216,9 +223,7 @@
           />
         </svg>
       </div>
-      <div class="created-by">
-        Created by Shengyuan Hu on Github Pages
-      </div>
+      <div class="created-by">Created by Shengyuan Hu on Github Pages</div>
       <div class="access-2">
         hushengyuan030831@gmail.com<br />(+81)70-3221-0831
       </div>
@@ -299,34 +304,79 @@
       <div class="gituhub-privacy" onclick="Privacy();">Github Privacy</div>
     </div>
     <div class="navigator-menu" id="bar">
-        <div class="translation-small" onclick="Language();">
-            <svg class="language2" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path fill-rule="evenodd" clip-rule="evenodd" d="M8.49978 1.5C9.05207 1.5 9.49978 1.94772 9.49978 2.5V4H13.9998C14.5521 4 14.9998 4.44772 14.9998 5C14.9998 5.55228 14.5521 6 13.9998 6H12.8026C12.7488 6.21284 12.6815 6.46122 12.5987 6.73896C12.3191 7.67641 11.8593 8.95748 11.1356 10.3393C10.8545 10.8761 10.5321 11.4306 10.1634 11.9874C10.6322 12.4288 11.1174 12.8382 11.5998 13.2C12.0416 13.5314 12.1312 14.1582 11.7998 14.6C11.4684 15.0418 10.8416 15.1314 10.3998 14.8C9.92234 14.4419 9.43598 14.0373 8.95799 13.5974C7.49007 15.332 5.50798 16.9414 2.85114 17.9385C2.33407 18.1326 1.75759 17.8707 1.56354 17.3536C1.36949 16.8366 1.63135 16.2601 2.14843 16.066C4.49815 15.1842 6.25001 13.7399 7.54978 12.1641C6.50571 10.9866 5.60523 9.67605 5.07429 8.37878C4.8651 7.86764 5.10987 7.2837 5.62101 7.07451C6.13214 6.86532 6.71608 7.11009 6.92527 7.62122C7.30993 8.56109 7.96181 9.55388 8.74763 10.491C8.97273 10.1286 9.17761 9.76705 9.36393 9.41132C10.0152 8.16781 10.4304 7.01123 10.6821 6.16737C10.6992 6.11007 10.7155 6.05426 10.7311 6H2.99978C2.4475 6 1.99978 5.55228 1.99978 5C1.99978 4.44772 2.4475 4 2.99978 4H7.49978V2.5C7.49978 1.94772 7.9475 1.5 8.49978 1.5ZM16.2498 9.25C16.6383 9.25 16.9917 9.47504 17.156 9.82711L22.406 21.0771C22.6395 21.5776 22.4231 22.1726 21.9227 22.4062C21.4222 22.6397 20.8272 22.4234 20.5936 21.9229L19.4629 19.5H13.0366L11.906 21.9229C11.6724 22.4234 11.0774 22.6397 10.5769 22.4062C10.0764 22.1726 9.86005 21.5776 10.0936 21.0771L15.3436 9.82711C15.5079 9.47504 15.8613 9.25 16.2498 9.25ZM13.97 17.5H18.5296L16.2498 12.6147L13.97 17.5Z" fill="#272022" fill-opacity="0.75"/>
-            </svg>
-            <div class="english" >
-                English </div>
+      <div class="translation-small" onclick="Language();">
+        <svg
+          class="language2"
+          width="24"
+          height="24"
+          viewBox="0 0 24 24"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            fill-rule="evenodd"
+            clip-rule="evenodd"
+            d="M8.49978 1.5C9.05207 1.5 9.49978 1.94772 9.49978 2.5V4H13.9998C14.5521 4 14.9998 4.44772 14.9998 5C14.9998 5.55228 14.5521 6 13.9998 6H12.8026C12.7488 6.21284 12.6815 6.46122 12.5987 6.73896C12.3191 7.67641 11.8593 8.95748 11.1356 10.3393C10.8545 10.8761 10.5321 11.4306 10.1634 11.9874C10.6322 12.4288 11.1174 12.8382 11.5998 13.2C12.0416 13.5314 12.1312 14.1582 11.7998 14.6C11.4684 15.0418 10.8416 15.1314 10.3998 14.8C9.92234 14.4419 9.43598 14.0373 8.95799 13.5974C7.49007 15.332 5.50798 16.9414 2.85114 17.9385C2.33407 18.1326 1.75759 17.8707 1.56354 17.3536C1.36949 16.8366 1.63135 16.2601 2.14843 16.066C4.49815 15.1842 6.25001 13.7399 7.54978 12.1641C6.50571 10.9866 5.60523 9.67605 5.07429 8.37878C4.8651 7.86764 5.10987 7.2837 5.62101 7.07451C6.13214 6.86532 6.71608 7.11009 6.92527 7.62122C7.30993 8.56109 7.96181 9.55388 8.74763 10.491C8.97273 10.1286 9.17761 9.76705 9.36393 9.41132C10.0152 8.16781 10.4304 7.01123 10.6821 6.16737C10.6992 6.11007 10.7155 6.05426 10.7311 6H2.99978C2.4475 6 1.99978 5.55228 1.99978 5C1.99978 4.44772 2.4475 4 2.99978 4H7.49978V2.5C7.49978 1.94772 7.9475 1.5 8.49978 1.5ZM16.2498 9.25C16.6383 9.25 16.9917 9.47504 17.156 9.82711L22.406 21.0771C22.6395 21.5776 22.4231 22.1726 21.9227 22.4062C21.4222 22.6397 20.8272 22.4234 20.5936 21.9229L19.4629 19.5H13.0366L11.906 21.9229C11.6724 22.4234 11.0774 22.6397 10.5769 22.4062C10.0764 22.1726 9.86005 21.5776 10.0936 21.0771L15.3436 9.82711C15.5079 9.47504 15.8613 9.25 16.2498 9.25ZM13.97 17.5H18.5296L16.2498 12.6147L13.97 17.5Z"
+            fill="#272022"
+            fill-opacity="0.75"
+          />
+        </svg>
+        <div class="english">English</div>
+      </div>
+      <div class="navigation-menu-small">
+        <div class="home">Home</div>
+        <div
+          class="work"
+          onclick="TOWORK()"
+          onmouseenter="easycheck1(5);"
+          onmouseout="easycheck2(5);"
+          id="5"
+        >
+          Work
         </div>
-        <div class="navigation-menu-small" >
-            <div class="home" >
-                Home </div>
-            <div class="work" onclick="TOWORK()"
-                 onmouseenter="easycheck1(5);"
-                 onmouseout="easycheck2(5);"
-                 id="5">
-                Work </div>
-            <div class="contact" onclick="TOCONTACT()"
-                 onmouseenter="easycheck1(6);"
-                 onmouseout="easycheck2(6);"
-                 id="6">
-                Contact </div>
-            <div class="files">
-                Files </div>
+        <div
+          class="contact"
+          onclick="TOCONTACT()"
+          onmouseenter="easycheck1(6);"
+          onmouseout="easycheck2(6);"
+          id="6"
+        >
+          Contact
         </div>
+        <div class="files">Files</div>
+      </div>
     </div>
-    <svg class="menu" width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg" onclick="MenuBar();">
-        <path d="M9.375 13.5416H40.625" stroke="black" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
-        <path d="M9.375 25H40.625" stroke="black" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
-        <path d="M9.375 36.4584H40.625" stroke="black" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    <svg
+      class="menu"
+      width="50"
+      height="50"
+      viewBox="0 0 50 50"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+      onclick="MenuBar();"
+    >
+      <path
+        d="M9.375 13.5416H40.625"
+        stroke="black"
+        stroke-width="3"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+      />
+      <path
+        d="M9.375 25H40.625"
+        stroke="black"
+        stroke-width="3"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+      />
+      <path
+        d="M9.375 36.4584H40.625"
+        stroke="black"
+        stroke-width="3"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+      />
     </svg>
   </body>
+  <script type="text/javascript"></script>
 </html>
