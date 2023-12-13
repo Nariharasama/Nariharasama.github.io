@@ -8,7 +8,7 @@ function TOWORK() {
 }
 
 function TOHOME() {
-  window.location.href = "./";
+  window.location.href = "./index.html";
 }
 
 function TOCONTACT() {
@@ -23,23 +23,17 @@ function Privacy() {
   window.open("https://docs.github.com/en/site-policy");
 }
 
-function Portfolio(){
+function Portfolio() {
   window.open("https://share.weiyun.com/xLxuNTgE");
 }
 
-function MenuBar(){
-  if ($('#bar').css('display')==='block'){
-    $('#bar').hide();
+function MenuBar() {
+  if ($("#bar").css("display") === "block") {
+    $("#bar").hide();
+  } else {
+    $("#bar").show();
   }
-  else{
-    $('#bar').show();
-  }
-
-
 }
-
-
-
 
 function easycheck1(id) {
   var btn = document.getElementById(id);
@@ -109,9 +103,9 @@ $(window).scroll(function () {
   var scrollTop = $(window).scrollTop();
   //console.log(scrollTop);
   var exhei = $(window).height();
-  var fullpage=$('.wireframe-home').height();
+  var fullpage = $(".wireframe-home").height();
   //Experience Fadein
-  if (exhei + scrollTop >= 1200*fullpage/2200 && ExShow == 0) {
+  if (exhei + scrollTop >= (1200 * fullpage) / 2200 && ExShow == 0) {
     EdEffect();
     ExShow = 1;
   }

@@ -202,7 +202,6 @@
   position: absolute;
   left: calc(50% - 217px);
   top: 214px;
-  display: none;
   align-items: flex-end;
   justify-content: center;
 }

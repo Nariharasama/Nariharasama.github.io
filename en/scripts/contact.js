@@ -8,7 +8,7 @@ function TOWORK() {
 }
 
 function TOHOME() {
-  window.location.href = "./";
+  window.location.href = "./index.html";
 }
 
 function TOCONTACT() {
@@ -23,18 +23,13 @@ function Privacy() {
   window.open("https://docs.github.com/en/site-policy");
 }
 
-
-function MenuBar(){
-  if ($('#bar').css('display')==='block'){
-    $('#bar').hide();
+function MenuBar() {
+  if ($("#bar").css("display") === "block") {
+    $("#bar").hide();
+  } else {
+    $("#bar").show();
   }
-  else{
-    $('#bar').show();
-  }
-
-
 }
-
 
 function easycheck1(id) {
   var btn = document.getElementById(id);

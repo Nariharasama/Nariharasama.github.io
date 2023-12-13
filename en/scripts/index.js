@@ -169,6 +169,53 @@ function EdEffect() {
   $(".experience-area").fadeIn(500);
 }
 
+//Start animation
+function Next() {
+  var Fullcontent = "Hi! I’m Hu shengyuan,";
+  var FullcontentSplit = Fullcontent.split(" ");
+  if (window.len < FullcontentSplit.length) {
+    var Com = "";
+    for (var s = 0; s < window.len; s++) {
+      Com += FullcontentSplit[s] + "&nbsp";
+    }
+    Com += FullcontentSplit[window.len].substr(0, window.num + 1);
+    if (window.num == FullcontentSplit[window.len].length) {
+      window.num = 0;
+      window.len += 1;
+    } else {
+      num += 1;
+    }
+    $(".h-1").html(Com + "_");
+    setTimeout(Next, 100);
+  } else {
+    var bli = setInterval("Blick()", 700);
+    $(".h-2").fadeIn(1000, function () {
+      $(".h-3").fadeIn(1000);
+      $(".access-1").fadeIn(1000, function () {
+        $(".to-work-botton-hero-area").fadeIn(500);
+      });
+    });
+  }
+}
+
+function Blick() {
+  console.log(window.stat);
+  if (window.stat === 0) {
+    $(".h-1").html("Hi! I’m Hu shengyuan,");
+    window.stat = 1;
+  } else {
+    $(".h-1").html("Hi! I’m Hu shengyuan,_");
+    window.stat = 0;
+  }
+}
+function Init_Animate() {
+  $(".h-1").html("_");
+  window.num = 0;
+  window.len = 0;
+  window.stat = 0;
+  Next();
+}
+//Circle initialize
 function Init_Circle() {
   var Toplimit = $(".header-edge").css("top");
   var Toplimitpure = parseInt(Toplimit.substr(0, Toplimit.indexOf("p")));
@@ -205,9 +252,7 @@ function Init_Circle() {
       "px;width:" +
       size +
       'px"></div>';
-    console.log(Thiscircle);
     $("#Circles").append(Thiscircle);
-    console.log(i);
   }
   //big ones
   for (var i = 0; i < 7; i++) {
@@ -224,14 +269,12 @@ function Init_Circle() {
       "px;width:" +
       size +
       'px"></div>';
-    console.log(Thiscircle);
     $("#Circles").append(Thiscircle);
-    console.log(i);
   }
   var timeset = 0;
   //animation
   for (var i = 0; i < 15; i++) {
-    timeset = parseInt(Math.random() * 3000 + 100);
+    timeset = parseInt(Math.random() * 3000 + 500);
     $(".circlesmall:eq(" + i + ")")
       .animate({ opacity: "0.05" }, timeset)
       .animate({ opacity: "0.5" }, timeset)
@@ -269,7 +312,7 @@ function Update_Circle() {
       size = parseInt(Math.random() * (sizemax - sizemin) + sizemin);
       posX = parseInt(Math.random() * Width);
       posY = parseInt(Math.random() * (Bottomlimitpure - Toplimitpure));
-      timeset = parseInt(Math.random() * 3000 + 100);
+      timeset = parseInt(Math.random() * 3000 + 500);
       $(el).css({ top: posY, left: posX, width: size, height: size });
       $(el)
         .animate({ opacity: "0.05" }, timeset)
@@ -299,14 +342,7 @@ var status = 0;
 
 $(document).ready(function () {
   var timer1 = setInterval(checkon, 20); //change botton
-  $(".h-1").fadeIn(500, function () {
-    $(".h-2").fadeIn(1000, function () {
-      $(".h-3").fadeIn(1000);
-      $(".access-1").fadeIn(1000, function () {
-        $(".to-work-botton-hero-area").fadeIn(500);
-      });
-    });
-  });
+  Init_Animate();
   //circles
   Init_Circle();
   setInterval(Update_Circle, 100);
